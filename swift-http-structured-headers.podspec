@@ -13,6 +13,6 @@ Pod::Spec.new do |spec|
 
   spec.subspec 'CodableStructuredHeaders' do |subspec|
     subspec.source_files = 'swift-http-structured-headers/Sources/CodableStructuredHeaders/**/*.swift'
-    subspec.dependency "StructuredHeaders", :git => 'https://github.com/nnsnodnb/apple-swift-http-structured-headers.git'
+    subspec.dependency "StructuredHeaders", :podspec => 'https://raw.githubusercontent.com/nnsnodnb/apple-swift-http-structured-headers-podspec/main/swift-http-structured-headers.podspec'
   end
 end

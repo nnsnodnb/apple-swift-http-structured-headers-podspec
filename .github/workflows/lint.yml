@@ -23,8 +23,8 @@ jobs:
     - name: Lint StructuredHeaders.podspec
       run: bundle exec pod lib lint StructuredHeaders.podspec --allows-warnings
 
-    - name: Lint CodableStructuredHeaders.podspec
-      run: bundle exec pod lib lint CodableStructuredHeaders.podspec --allows-warnings
+    # - name: Lint CodableStructuredHeaders.podspec
+    #   run: bundle exec pod lib lint CodableStructuredHeaders.podspec --allows-warnings
 
   actionlint:
     runs-on: ubuntu-latest

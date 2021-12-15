@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
   spec.version               = '0.0.1'
   spec.license               = { :type => 'Apache License, Version 2.0', :file => 'LICENSE' }
   spec.homepage              = 'https://github.com/apple/swift-http-structured-headers'
-  spec.author                = 'apple'
+  spec.author                = 'Apple Inc. and the SwiftNIO project'
   spec.source                = { :git => 'https://github.com/apple/swift-http-structured-headers.git', :tag => '#{spec.version}', :submodules => true }
   spec.summary               = 'A Swift implementation of the HTTP Structured Header Field Value specification.'
   spec.module_name           = 'CodableStructuredHeaders'

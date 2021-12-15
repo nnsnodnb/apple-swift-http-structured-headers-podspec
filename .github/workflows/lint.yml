@@ -20,14 +20,11 @@ jobs:
         ruby-version: 2.7
         bundler-cache: true
 
-    - name: Install Cocoapods
-      run: gem install cocoapods
-
     - name: Lint StructuredHeaders.podspec
-      run: pod lib lint StructuredHeaders.podspec
+      run: bundle exec pod lib lint StructuredHeaders.podspec
 
     - name: Lint CodableStructuredHeaders.podspec
-      run: pod lib lint CodableStructuredHeaders.podspec
+      run: bundle exec pod lib lint CodableStructuredHeaders.podspec
 
   actionlint:
     runs-on: ubuntu-latest

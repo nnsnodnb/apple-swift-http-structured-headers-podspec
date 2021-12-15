@@ -17,10 +17,13 @@ jobs:
     - name: Setup ruby
       uses: ruby/setup-ruby@v1
       with:
+        ruby-version: 2.7
         bundler-cache: true
 
     - name: Lint
-      run: bundle exec pod lib lint swift-http-structured-headers.podspec
+      run: |
+        gem install cocoapods
+        pod lib lint swift-http-structured-headers.podspec
 
   actionlint:
     runs-on: ubuntu-latest

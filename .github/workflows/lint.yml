@@ -1,6 +1,10 @@
 name: Lint
 
 on:
+  pull_request:
+    paths:
+    - "swift-http-structured-headers.podspec"
+    - ".github/workflows/lint.yml"
   push:
     paths:
     - "swift-http-structured-headers.podspec"

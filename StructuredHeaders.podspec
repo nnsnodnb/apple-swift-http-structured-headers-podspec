@@ -9,4 +9,5 @@ Pod::Spec.new do |spec|
   spec.summary               = 'A Swift implementation of the HTTP Structured Header Field Value specification.'
   spec.module_name           = 'StructuredHeaders'
   spec.ios.deployment_target = '9.0'
+  spec.swift_version         = '5.0'
 end

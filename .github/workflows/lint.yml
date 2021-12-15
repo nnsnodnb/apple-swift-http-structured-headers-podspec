@@ -1,0 +1,40 @@
+name: Lint
+
+on:
+  push:
+    paths:
+    - "swift-http-structured-headers.podspec"
+    - ".github/workflows/lint.yml"
+
+jobs:
+  pod_lint:
+    runs-on: macos-latest
+    timeout-minutes: 10
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: true
+
+    - name: Setup ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.7
+        bundler-cache: true
+
+    - name: Lint StructuredHeaders.podspec
+      run: bundle exec pod lib lint StructuredHeaders.podspec --allow-warnings
+
+    - name: Lint CodableStructuredHeaders.podspec
+      run: bundle exec pod lib lint CodableStructuredHeaders.podspec --allow-warnings
+
+  actionlint:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - uses: reviewdog/action-actionlint@v1
+      with:
+        reporter: github-pr-review
+        level: warning

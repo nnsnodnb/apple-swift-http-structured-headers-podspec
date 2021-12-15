@@ -23,7 +23,8 @@ jobs:
     - name: Lint
       run: |
         gem install cocoapods
-        pod lib lint swift-http-structured-headers.podspec
+        pod lib lint StructuredHeaders.podspec
+        pod lib lint CodableStructuredHeaders.podspec
 
   actionlint:
     runs-on: ubuntu-latest

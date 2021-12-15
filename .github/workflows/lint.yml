@@ -21,7 +21,7 @@ jobs:
         bundler-cache: true
 
     - name: Lint
-      run: |-
+      run: |
         gem install cocoapods
         pod lib lint StructuredHeaders.podspec
         pod lib lint CodableStructuredHeaders.podspec

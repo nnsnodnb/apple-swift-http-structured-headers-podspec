@@ -3,7 +3,7 @@
 ## Usage
 
 ```ruby
-pod 'swift-http-structured-headers/CodableStructuredHeaders', :git => 'https://github.com/nnsnodnb/apple-swift-http-structured-headers-podspec.git', :submodules => true
+pod 'swift-http-structured-headers/StructuredFieldValues', :git => 'https://github.com/nnsnodnb/apple-swift-http-structured-headers-podspec.git', :submodules => true
 ```
 
 ## Reference

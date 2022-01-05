@@ -2,13 +2,13 @@ name: Lint
 
 on:
   pull_request:
-    paths:
-    - "swift-http-structured-headers.podspec"
-    - ".github/workflows/lint.yml"
+    paths-ignore:
+    - "LICENSE"
+    - "README.md"
   push:
-    paths:
-    - "swift-http-structured-headers.podspec"
-    - ".github/workflows/lint.yml"
+    paths-ignore:
+    - "LICENSE"
+    - "README.md"
 
 jobs:
   pod_lint:

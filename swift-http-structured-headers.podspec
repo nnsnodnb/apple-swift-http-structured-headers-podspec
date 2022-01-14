@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
   spec.license               = { :type => 'Apache License, Version 2.0', :file => 'LICENSE' }
   spec.homepage              = 'https://github.com/apple/swift-http-structured-headers'
   spec.author                = 'Apple Inc. and the SwiftNIO project'
-  spec.source                = { :git => 'https://github.com/apple/swift-http-structured-headers.git', :commit => 'e31cbd3120f6f10f8a9dc78360bb2741b671d296', :submodules => true }
+  spec.source                = { :git => 'https://github.com/apple/swift-http-structured-headers.git', :tag => '#{spec.version}', :submodules => true }
   spec.source_files          = 'swift-http-structured-headers/Sources/StructuredFieldValues/**/*.swift', 'swift-http-structured-headers/Sources/RawStructuredFieldValues/*.swift'
   spec.summary               = 'A Swift implementation of the HTTP Structured Header Field Value specification.'
   spec.ios.deployment_target = '9.0'

@@ -10,7 +10,7 @@ pod 'swift-http-structured-headers/StructuredFieldValues',
 ```
 
 ```swift
-import StructuredHeaders
+import RawStructuredFieldValues
 ```
 
 ## Reference

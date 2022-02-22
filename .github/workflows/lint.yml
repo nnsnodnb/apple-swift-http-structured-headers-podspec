@@ -26,6 +26,12 @@ jobs:
         ruby-version: 2.7
         bundler-cache: true
 
+    - name: Build xcframeworks
+      if: ${{ github.actor == 'dependabot[bot]' }}
+      run: |
+        rm -rf build Frameworks
+        ./scripts/make_xcframeworks.sh
+
     - name: Lint swift-http-structured-headers.podspec
       run: bundle exec pod lib lint swift-http-structured-headers.podspec --allow-warnings
 

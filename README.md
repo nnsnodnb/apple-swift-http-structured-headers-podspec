@@ -5,12 +5,14 @@
 ```ruby
 pod 'swift-http-structured-headers/StructuredFieldValues',
     :git => 'https://github.com/nnsnodnb/apple-swift-http-structured-headers-podspec.git',
-    :submodules => true,
-    :tag => '0.1.0'
+    :tag => '0.1.1'
 ```
+
+Following to Swift Package Manager's usage.
 
 ```swift
 import RawStructuredFieldValues
+import StructuredFieldValues
 ```
 
 ## Reference

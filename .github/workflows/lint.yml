@@ -32,6 +32,21 @@ jobs:
         rm -rf build Frameworks
         ./scripts/make_xcframeworks.sh
 
+    - name: Commit
+      if: ${{ github.actor == 'dependabot[bot]' && github.event_name == 'pull_request' }}
+      run: |
+        git config --global user.name dependabot[bot]
+        git config --global user.email 49699333+dependabot[bot]@users.noreply.github.com
+        git add Frameworks
+        git commit -m "[Automatic] Update xcframeworks"
+
+    - name: Push
+      if: ${{ github.actor == 'dependabot[bot]' && github.event_name == 'pull_request' }}
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ github.token }}
+        branch: ${{ github.ref }}
+
     - name: Lint swift-http-structured-headers.podspec
       run: bundle exec pod lib lint swift-http-structured-headers.podspec --allow-warnings
 

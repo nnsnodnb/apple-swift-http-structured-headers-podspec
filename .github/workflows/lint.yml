@@ -44,7 +44,7 @@ jobs:
       if: ${{ github.actor == 'dependabot[bot]' && github.event_name == 'pull_request' }}
       uses: ad-m/github-push-action@master
       with:
-        github_token: ${{ github.token }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: ${{ github.ref }}
 
     - name: Lint swift-http-structured-headers.podspec

@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "swift-http-structured-headers",
+        "repositoryURL": "https://github.com/apple/swift-http-structured-headers.git",
+        "state": {
+          "branch": null,
+          "revision": "8c5c9aa00d21344e0d2b3ed87e10ac339335e94b",
+          "version": "0.1.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

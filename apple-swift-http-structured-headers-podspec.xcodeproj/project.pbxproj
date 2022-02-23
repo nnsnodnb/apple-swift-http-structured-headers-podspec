@@ -37,21 +37,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CF52983A27C5901800757DA0 /* PBXContainerItemProxy */ = {
+		CF52985D27C5B47000757DA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "swift-http-structured-headers::StructuredFieldValues";
 			remoteInfo = StructuredFieldValues;
 		};
-		CF52983B27C5901800757DA0 /* PBXContainerItemProxy */ = {
+		CF52985E27C5B47000757DA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "swift-http-structured-headers::RawStructuredFieldValues";
 			remoteInfo = RawStructuredFieldValues;
 		};
-		CF52983C27C5901800757DA0 /* PBXContainerItemProxy */ = {
+		CF52985F27C5B47000757DA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -82,8 +82,7 @@
 		OBJ_35 /* StructuredFieldUnkeyedEncodingContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructuredFieldUnkeyedEncodingContainer.swift; sourceTree = "<group>"; };
 		OBJ_36 /* StructuredFieldValueEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructuredFieldValueEncoder.swift; sourceTree = "<group>"; };
 		OBJ_37 /* StructuredFieldValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructuredFieldValue.swift; sourceTree = "<group>"; };
-		OBJ_38 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/nnsnodnb/workspace/swift/apple-swift-http-structured-headers-podspec/swift-http-structured-headers/Package.swift"; sourceTree = "<group>"; };
-		OBJ_43 /* swift-http-structured-headers */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "swift-http-structured-headers"; sourceTree = SOURCE_ROOT; };
+		OBJ_38 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/nnsnodnb/workspace/swift/apple-swift-http-structured-headers-podspec/.build/checkouts/swift-http-structured-headers/Package.swift"; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_9 /* Empty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empty.swift; sourceTree = "<group>"; };
 		"apple-swift-http-structured-headers-podspec::apple-swift-http-structured-headers-podspec::Product" /* apple_swift_http_structured_headers_podspec.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = apple_swift_http_structured_headers_podspec.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,22 +118,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		OBJ_10 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
 		OBJ_11 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_12 /* swift-http-structured-headers */,
+				OBJ_12 /* swift-http-structured-headers 0.1.0 */,
 			);
 			name = Dependencies;
 			sourceTree = "<group>";
 		};
-		OBJ_12 /* swift-http-structured-headers */ = {
+		OBJ_12 /* swift-http-structured-headers 0.1.0 */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_13 /* RawStructuredFieldValues */,
 				OBJ_21 /* StructuredFieldValues */,
 				OBJ_38 /* Package.swift */,
 			);
-			name = "swift-http-structured-headers";
+			name = "swift-http-structured-headers 0.1.0";
 			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_13 /* RawStructuredFieldValues */ = {
@@ -149,7 +155,7 @@
 				OBJ_20 /* PseudoDecimal.swift */,
 			);
 			name = RawStructuredFieldValues;
-			path = "swift-http-structured-headers/Sources/RawStructuredFieldValues";
+			path = ".build/checkouts/swift-http-structured-headers/Sources/RawStructuredFieldValues";
 			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_21 /* StructuredFieldValues */ = {
@@ -160,7 +166,7 @@
 				OBJ_37 /* StructuredFieldValue.swift */,
 			);
 			name = StructuredFieldValues;
-			path = "swift-http-structured-headers/Sources/StructuredFieldValues";
+			path = ".build/checkouts/swift-http-structured-headers/Sources/StructuredFieldValues";
 			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_22 /* Decoder */ = {
@@ -205,9 +211,9 @@
 			children = (
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
+				OBJ_10 /* Tests */,
 				OBJ_11 /* Dependencies */,
 				OBJ_39 /* Products */,
-				OBJ_43 /* swift-http-structured-headers */,
 			);
 			name = "";
 			sourceTree = "<group>";
@@ -407,17 +413,17 @@
 		OBJ_86 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "swift-http-structured-headers::RawStructuredFieldValues" /* RawStructuredFieldValues */;
-			targetProxy = CF52983B27C5901800757DA0 /* PBXContainerItemProxy */;
+			targetProxy = CF52985E27C5B47000757DA0 /* PBXContainerItemProxy */;
 		};
 		OBJ_96 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "swift-http-structured-headers::StructuredFieldValues" /* StructuredFieldValues */;
-			targetProxy = CF52983A27C5901800757DA0 /* PBXContainerItemProxy */;
+			targetProxy = CF52985D27C5B47000757DA0 /* PBXContainerItemProxy */;
 		};
 		OBJ_97 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "swift-http-structured-headers::RawStructuredFieldValues" /* RawStructuredFieldValues */;
-			targetProxy = CF52983C27C5901800757DA0 /* PBXContainerItemProxy */;
+			targetProxy = CF52985F27C5B47000757DA0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

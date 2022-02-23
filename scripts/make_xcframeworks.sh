@@ -18,7 +18,7 @@ archive () {
     -scheme "${DEPENDENCY}-Package" \
     -destination "generic/platform=iOS Simulator" \
     -configuration "Release" \
-    -archivePath "${IOS_SIMULATOR_XCARCHIVE}"
+    -archivePath "${IOS_SIMULATOR_XCARCHIVE}" | bundle exec xcpretty -s
 
   # for Physical devices
   xcodebuild \
@@ -32,7 +32,7 @@ archive () {
     -scheme "${DEPENDENCY}-Package" \
     -destination "generic/platform=iOS" \
     -configuration "Release" \
-    -archivePath "${IOS_XCARCHIVE}"
+    -archivePath "${IOS_XCARCHIVE}" | bundle exec xcpretty -s
 }
 
 xcframework () {

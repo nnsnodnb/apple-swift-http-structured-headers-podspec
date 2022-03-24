@@ -12,7 +12,7 @@ on:
 
 jobs:
   pod_lint:
-    runs-on: macos-latest
+    runs-on: macos-12
     timeout-minutes: 10
 
     steps:

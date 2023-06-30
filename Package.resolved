@@ -6,8 +6,8 @@
         "repositoryURL": "https://github.com/apple/swift-http-structured-headers.git",
         "state": {
           "branch": null,
-          "revision": "a3c50a9c10cbd39c0561b3a99eaaf567364d0937",
-          "version": "0.2.0"
+          "revision": "76a75874dd3fa1654a3855a05b4cbafdf3315ec7",
+          "version": "0.3.0"
         }
       }
     ]

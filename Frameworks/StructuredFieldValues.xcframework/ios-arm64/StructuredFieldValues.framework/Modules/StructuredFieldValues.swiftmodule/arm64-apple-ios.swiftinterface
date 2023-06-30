@@ -7,12 +7,12 @@ import RawStructuredFieldValues
 import Swift
 import _Concurrency
 import _StringProcessing
-public struct StructuredFieldValueDecoder {
+public struct StructuredFieldValueDecoder : RawStructuredFieldValues.SHSendable {
   public var keyDecodingStrategy: StructuredFieldValues.StructuredFieldValueDecoder.KeyDecodingStrategy?
   public init()
 }
 extension StructuredFieldValues.StructuredFieldValueDecoder {
-  public struct KeyDecodingStrategy : Swift.Hashable {
+  public struct KeyDecodingStrategy : Swift.Hashable, RawStructuredFieldValues.SHSendable {
     public static let lowercase: StructuredFieldValues.StructuredFieldValueDecoder.KeyDecodingStrategy
     public func hash(into hasher: inout Swift.Hasher)
     public static func == (a: StructuredFieldValues.StructuredFieldValueDecoder.KeyDecodingStrategy, b: StructuredFieldValues.StructuredFieldValueDecoder.KeyDecodingStrategy) -> Swift.Bool
@@ -24,12 +24,12 @@ extension StructuredFieldValues.StructuredFieldValueDecoder {
 extension StructuredFieldValues.StructuredFieldValueDecoder {
   public func decode<StructuredField, BaseData>(_ type: StructuredField.Type = StructuredField.self, from data: BaseData) throws -> StructuredField where StructuredField : StructuredFieldValues.StructuredFieldValue, BaseData : Swift.RandomAccessCollection, BaseData.Element == Swift.UInt8
 }
-public struct StructuredFieldValueEncoder {
+public struct StructuredFieldValueEncoder : RawStructuredFieldValues.SHSendable {
   public var keyEncodingStrategy: StructuredFieldValues.StructuredFieldValueEncoder.KeyEncodingStrategy?
   public init()
 }
 extension StructuredFieldValues.StructuredFieldValueEncoder {
-  public struct KeyEncodingStrategy : Swift.Hashable {
+  public struct KeyEncodingStrategy : Swift.Hashable, RawStructuredFieldValues.SHSendable {
     public static let lowercase: StructuredFieldValues.StructuredFieldValueEncoder.KeyEncodingStrategy
     public func hash(into hasher: inout Swift.Hasher)
     public static func == (a: StructuredFieldValues.StructuredFieldValueEncoder.KeyEncodingStrategy, b: StructuredFieldValues.StructuredFieldValueEncoder.KeyEncodingStrategy) -> Swift.Bool

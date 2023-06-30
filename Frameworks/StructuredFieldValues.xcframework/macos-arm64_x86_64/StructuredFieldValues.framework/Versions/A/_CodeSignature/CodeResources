@@ -22,14 +22,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DdD4fvPkM6Q8umh0MgRPc7md4DJvBTr+gvs5iqofTV4=
+			5G5xm4itjIqr6xdTzraLrgSjaNuf5xsV6Svd+lNW9Jk=
 			</data>
 		</dict>
 		<key>Modules/StructuredFieldValues.swiftmodule/arm64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RBkNbIYtofVpyLDXqUxorJ/dS+i/ZtVew3GmLkRn9DE=
+			GQcX5KAmYCeIa/TX5s74xVkvfI3g3Auo9waz/dX4R+0=
 			</data>
 		</dict>
 		<key>Modules/StructuredFieldValues.swiftmodule/arm64-apple-macos.swiftdoc</key>
@@ -43,28 +43,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RBkNbIYtofVpyLDXqUxorJ/dS+i/ZtVew3GmLkRn9DE=
+			GQcX5KAmYCeIa/TX5s74xVkvfI3g3Auo9waz/dX4R+0=
 			</data>
 		</dict>
 		<key>Modules/StructuredFieldValues.swiftmodule/arm64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DxRrGuinTbW/BCVcpRw2NJ2HarwjJfjWL9B0cYvQ0rE=
+			esAcqJcrfs7QGt7rn6roMgzvJGapVo7t7E6oxus6s30=
 			</data>
 		</dict>
 		<key>Modules/StructuredFieldValues.swiftmodule/x86_64-apple-macos.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DdD4fvPkM6Q8umh0MgRPc7md4DJvBTr+gvs5iqofTV4=
+			5G5xm4itjIqr6xdTzraLrgSjaNuf5xsV6Svd+lNW9Jk=
 			</data>
 		</dict>
 		<key>Modules/StructuredFieldValues.swiftmodule/x86_64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VhE6go86lCjWXMq/qJXoqUMYDEf36elcM3zTa91Bdis=
+			H6zyt6hY8eYBneBStbFKnwA4lKzmIjnlC3kYHFtkddk=
 			</data>
 		</dict>
 		<key>Modules/StructuredFieldValues.swiftmodule/x86_64-apple-macos.swiftdoc</key>
@@ -78,14 +78,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VhE6go86lCjWXMq/qJXoqUMYDEf36elcM3zTa91Bdis=
+			H6zyt6hY8eYBneBStbFKnwA4lKzmIjnlC3kYHFtkddk=
 			</data>
 		</dict>
 		<key>Modules/StructuredFieldValues.swiftmodule/x86_64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KH43oqbz2VMeYFhGGzNV6rBzAxwwrPMuzispyu2Te3c=
+			aCXvXsWjf8XWKpb5uuWSncJ9Zm/GlqchZ0aGTXUb+2E=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>

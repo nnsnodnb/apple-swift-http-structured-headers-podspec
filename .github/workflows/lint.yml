@@ -23,14 +23,8 @@ jobs:
     - name: Setup ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.7
+        ruby-version: '3.2'
         bundler-cache: true
-
-    - name: Build xcframeworks
-      if: ${{ github.event == 'pull_request' }}
-      run: |
-        rm -rf build Frameworks
-        ./scripts/make_xcframeworks.sh
 
     - name: Lint swift-http-structured-headers.podspec
       run: bundle exec pod lib lint swift-http-structured-headers.podspec --allow-warnings

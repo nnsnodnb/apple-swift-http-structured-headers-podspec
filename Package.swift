@@ -11,9 +11,10 @@ let package = Package(
             targets: ["apple-swift-http-structured-headers-podspec"]),
     ],
     dependencies: [
-        .package(name: "swift-http-structured-headers",
-                 url: "https://github.com/apple/swift-http-structured-headers.git",
-                 from: "0.1.0")
+        .package(
+            url: "https://github.com/apple/swift-http-structured-headers.git",
+            .exactItem("0.2.0")
+        ),
     ],
     targets: [
         .target(

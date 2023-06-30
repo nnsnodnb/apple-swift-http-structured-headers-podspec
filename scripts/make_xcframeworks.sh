@@ -7,9 +7,6 @@ IOS_XCARCHIVE="build/Package-iphoneos.xcarchive"
 archive () {
   # for Simulators
   xcodebuild \
-    "ENABLE_BITCODE=YES" \
-    "BITCODE_GENERATION_MODE=bitcode" \
-    "OTHER_CFLAGS=-fembed-bitcode" \
     "BUILD_LIBRARY_FOR_DISTRIBUTION=YES" \
     "SKIP_INSTALL=NO" \
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]=arm64" \
@@ -22,8 +19,6 @@ archive () {
 
   # for Physical devices
   xcodebuild \
-    "ENABLE_BITCODE=YES" \
-    "BITCODE_GENERATION_MODE=bitcode" \
     "OTHER_CFLAGS=-fembed-bitcode" \
     "BUILD_LIBRARY_FOR_DISTRIBUTION=YES" \
     "SKIP_INSTALL=NO" \

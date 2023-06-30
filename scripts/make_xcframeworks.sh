@@ -1,44 +1,14 @@
 #!/usr/bin/env bash -eu
 
-DEPENDENCY="apple-swift-http-structured-headers-podspec"
-IOS_SIMULATOR_XCARCHIVE="build/Package-iphonesimulator.xcarchive"
-IOS_XCARCHIVE="build/Package-iphoneos.xcarchive"
-
-archive () {
-  # for Simulators
-  xcodebuild \
-    "BUILD_LIBRARY_FOR_DISTRIBUTION=YES" \
-    "SKIP_INSTALL=NO" \
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]=arm64" \
-    archive \
-    -project "${DEPENDENCY}.xcodeproj" \
-    -scheme "${DEPENDENCY}-Package" \
-    -destination "generic/platform=iOS Simulator" \
-    -configuration "Release" \
-    -archivePath "${IOS_SIMULATOR_XCARCHIVE}" | bundle exec xcpretty -s
-
-  # for Physical devices
-  xcodebuild \
-    "OTHER_CFLAGS=-fembed-bitcode" \
-    "BUILD_LIBRARY_FOR_DISTRIBUTION=YES" \
-    "SKIP_INSTALL=NO" \
-    archive \
-    -project "${DEPENDENCY}.xcodeproj" \
-    -scheme "${DEPENDENCY}-Package" \
-    -destination "generic/platform=iOS" \
-    -configuration "Release" \
-    -archivePath "${IOS_XCARCHIVE}" | bundle exec xcpretty -s
-}
-
 xcframework () {
-  xcodebuild \
-    -create-xcframework \
-    -framework "${IOS_SIMULATOR_XCARCHIVE}/Products/Library/Frameworks/$1.framework" \
-    -framework "${IOS_XCARCHIVE}/Products/Library/Frameworks/$1.framework" \
-    -output "Frameworks/$1.xcframework"
+  mint run swift-create-xcframework \
+    $1 \
+    --platform ios \
+    --platform macos \
+    --output Frameworks \
+    --stack-evolution \
+    --xc-setting ONLY_ACTIVE_ARCH=YES \
+    --xc-setting SKIP_INSTALL=NO | bundle exec xcpretty
 }
 
-archive
-
-xcframework "RawStructuredFieldValues"
-xcframework "StructuredFieldValues"
+xcframework "RawStructuredFieldValues StructuredFieldValues"

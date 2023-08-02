@@ -13,7 +13,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/apple/swift-http-structured-headers.git",
-            .upToNextMinor(from: "0.3.0")
+            .upToNextMinor(from: "1.0.0")
         ),
     ],
     targets: [

@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
 // swift-module-flags: -target x86_64-apple-macos10.13 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name StructuredFieldValues
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
@@ -7,12 +7,12 @@ import RawStructuredFieldValues
 import Swift
 import _Concurrency
 import _StringProcessing
-public struct StructuredFieldValueDecoder : RawStructuredFieldValues.SHSendable {
+public struct StructuredFieldValueDecoder : Swift.Sendable {
   public var keyDecodingStrategy: StructuredFieldValues.StructuredFieldValueDecoder.KeyDecodingStrategy?
   public init()
 }
 extension StructuredFieldValues.StructuredFieldValueDecoder {
-  public struct KeyDecodingStrategy : Swift.Hashable, RawStructuredFieldValues.SHSendable {
+  public struct KeyDecodingStrategy : Swift.Hashable, Swift.Sendable {
     public static let lowercase: StructuredFieldValues.StructuredFieldValueDecoder.KeyDecodingStrategy
     public func hash(into hasher: inout Swift.Hasher)
     public static func == (a: StructuredFieldValues.StructuredFieldValueDecoder.KeyDecodingStrategy, b: StructuredFieldValues.StructuredFieldValueDecoder.KeyDecodingStrategy) -> Swift.Bool
@@ -24,12 +24,12 @@ extension StructuredFieldValues.StructuredFieldValueDecoder {
 extension StructuredFieldValues.StructuredFieldValueDecoder {
   public func decode<StructuredField, BaseData>(_ type: StructuredField.Type = StructuredField.self, from data: BaseData) throws -> StructuredField where StructuredField : StructuredFieldValues.StructuredFieldValue, BaseData : Swift.RandomAccessCollection, BaseData.Element == Swift.UInt8
 }
-public struct StructuredFieldValueEncoder : RawStructuredFieldValues.SHSendable {
+public struct StructuredFieldValueEncoder : Swift.Sendable {
   public var keyEncodingStrategy: StructuredFieldValues.StructuredFieldValueEncoder.KeyEncodingStrategy?
   public init()
 }
 extension StructuredFieldValues.StructuredFieldValueEncoder {
-  public struct KeyEncodingStrategy : Swift.Hashable, RawStructuredFieldValues.SHSendable {
+  public struct KeyEncodingStrategy : Swift.Hashable, Swift.Sendable {
     public static let lowercase: StructuredFieldValues.StructuredFieldValueEncoder.KeyEncodingStrategy
     public func hash(into hasher: inout Swift.Hasher)
     public static func == (a: StructuredFieldValues.StructuredFieldValueEncoder.KeyEncodingStrategy, b: StructuredFieldValues.StructuredFieldValueEncoder.KeyEncodingStrategy) -> Swift.Bool

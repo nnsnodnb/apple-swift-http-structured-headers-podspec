@@ -1,12 +1,12 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
 // swift-module-flags: -target x86_64-apple-macos10.13 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name RawStructuredFieldValues
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Darwin
 import Swift
 import _Concurrency
 import _StringProcessing
-public enum ItemOrInnerList : RawStructuredFieldValues.SHSendable {
+public enum ItemOrInnerList : Swift.Sendable {
   case item(RawStructuredFieldValues.Item)
   case innerList(RawStructuredFieldValues.InnerList)
 }
@@ -17,7 +17,7 @@ extension RawStructuredFieldValues.ItemOrInnerList : Swift.Hashable {
     get
   }
 }
-public enum BareItem : RawStructuredFieldValues.SHSendable {
+public enum BareItem : Swift.Sendable {
   case bool(Swift.Bool)
   case integer(Swift.Int)
   case decimal(RawStructuredFieldValues.PseudoDecimal)
@@ -50,7 +50,7 @@ extension RawStructuredFieldValues.BareItem : Swift.Hashable {
     get
   }
 }
-public struct Item : RawStructuredFieldValues.SHSendable {
+public struct Item : Swift.Sendable {
   public var bareItem: RawStructuredFieldValues.BareItem
   public var parameters: RawStructuredFieldValues.OrderedMap<Swift.String, RawStructuredFieldValues.BareItem>
   public init(bareItem: RawStructuredFieldValues.BareItem, parameters: RawStructuredFieldValues.OrderedMap<Swift.String, RawStructuredFieldValues.BareItem>)
@@ -62,7 +62,7 @@ extension RawStructuredFieldValues.Item : Swift.Hashable {
     get
   }
 }
-public struct BareInnerList : Swift.Hashable, RawStructuredFieldValues.SHSendable {
+public struct BareInnerList : Swift.Hashable, Swift.Sendable {
   public init()
   public mutating func append(_ item: RawStructuredFieldValues.Item)
   public func hash(into hasher: inout Swift.Hasher)
@@ -109,7 +109,7 @@ extension RawStructuredFieldValues.BareInnerList.Index : Swift.Hashable {
 extension RawStructuredFieldValues.BareInnerList.Index : Swift.Comparable {
   public static func < (lhs: RawStructuredFieldValues.BareInnerList.Index, rhs: RawStructuredFieldValues.BareInnerList.Index) -> Swift.Bool
 }
-public struct InnerList : Swift.Hashable, RawStructuredFieldValues.SHSendable {
+public struct InnerList : Swift.Hashable, Swift.Sendable {
   public var bareInnerList: RawStructuredFieldValues.BareInnerList
   public var parameters: RawStructuredFieldValues.OrderedMap<Swift.String, RawStructuredFieldValues.BareItem>
   public init(bareInnerList: RawStructuredFieldValues.BareInnerList, parameters: RawStructuredFieldValues.OrderedMap<Swift.String, RawStructuredFieldValues.BareItem>)
@@ -124,7 +124,7 @@ extension Swift.String {
     get
   }
 }
-public struct StructuredHeaderError : Swift.Error, RawStructuredFieldValues.SHSendable {
+public struct StructuredHeaderError : Swift.Error, Swift.Sendable {
 }
 extension RawStructuredFieldValues.StructuredHeaderError {
   public static let invalidTrailingBytes: RawStructuredFieldValues.StructuredHeaderError
@@ -158,7 +158,7 @@ extension RawStructuredFieldValues.StructuredHeaderError : Swift.CustomStringCon
 public struct StructuredFieldValueParser<BaseData> where BaseData : Swift.RandomAccessCollection, BaseData.Element == Swift.UInt8 {
   public init(_ data: BaseData)
 }
-extension RawStructuredFieldValues.StructuredFieldValueParser : RawStructuredFieldValues.SHSendable where BaseData : Swift.Sendable, BaseData.SubSequence : Swift.Sendable {
+extension RawStructuredFieldValues.StructuredFieldValueParser : Swift.Sendable where BaseData : Swift.Sendable, BaseData.SubSequence : Swift.Sendable {
 }
 extension RawStructuredFieldValues.StructuredFieldValueParser {
   public typealias BareItem = RawStructuredFieldValues.BareItem
@@ -171,7 +171,7 @@ extension RawStructuredFieldValues.StructuredFieldValueParser {
   public mutating func parseDictionaryFieldValue() throws -> RawStructuredFieldValues.OrderedMap<RawStructuredFieldValues.StructuredFieldValueParser<BaseData>.Key, RawStructuredFieldValues.StructuredFieldValueParser<BaseData>.ItemOrInnerList>
   public mutating func parseItemFieldValue() throws -> RawStructuredFieldValues.StructuredFieldValueParser<BaseData>.Item
 }
-public struct StructuredFieldValueSerializer : RawStructuredFieldValues.SHSendable {
+public struct StructuredFieldValueSerializer : Swift.Sendable {
   public init()
 }
 extension RawStructuredFieldValues.StructuredFieldValueSerializer {
@@ -186,10 +186,10 @@ public struct OrderedMap<Key, Value> where Key : Swift.Hashable {
     set
   }
 }
-extension RawStructuredFieldValues.OrderedMap : RawStructuredFieldValues.SHSendable where Key : Swift.Sendable, Value : Swift.Sendable {
+extension RawStructuredFieldValues.OrderedMap : Swift.Sendable where Key : Swift.Sendable, Value : Swift.Sendable {
 }
 extension RawStructuredFieldValues.OrderedMap : Swift.RandomAccessCollection, Swift.MutableCollection {
-  public struct Index : RawStructuredFieldValues.SHSendable {
+  public struct Index : Swift.Sendable {
   }
   public var startIndex: RawStructuredFieldValues.OrderedMap<Key, Value>.Index {
     get
@@ -243,7 +243,7 @@ extension RawStructuredFieldValues.OrderedMap : Swift.Hashable where Value : Swi
     get
   }
 }
-public struct PseudoDecimal : Swift.Hashable, RawStructuredFieldValues.SHSendable {
+public struct PseudoDecimal : Swift.Hashable, Swift.Sendable {
   public var mantissa: Swift.Int64 {
     get
     set
@@ -270,4 +270,3 @@ extension Swift.String {
 extension Swift.Double {
   public init(_ pseudoDecimal: RawStructuredFieldValues.PseudoDecimal)
 }
-public typealias SHSendable = Swift.Sendable

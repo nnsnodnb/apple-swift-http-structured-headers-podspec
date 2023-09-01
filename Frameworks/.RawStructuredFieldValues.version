@@ -3,7 +3,7 @@
     "buildConfiguration" : "release",
     "enableLibraryEvolution" : true,
     "frameworkType" : "dynamic",
-    "isDebugSymbolsEmbedded" : false,
+    "isDebugSymbolsEmbedded" : true,
     "sdks" : [
       "iOS",
       "iOSSimulator"

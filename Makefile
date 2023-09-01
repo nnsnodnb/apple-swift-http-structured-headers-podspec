@@ -4,4 +4,5 @@ xcframework:
 		--cache-policy project \
 		--support-simulators \
 		--enable-library-evolution \
+		--embed-debug-symbols \
 		--output Frameworks

@@ -1,0 +1,19 @@
+{
+  "buildOptions" : {
+    "buildConfiguration" : "release",
+    "enableLibraryEvolution" : true,
+    "frameworkType" : "dynamic",
+    "isDebugSymbolsEmbedded" : false,
+    "sdks" : [
+      "iOS",
+      "iOSSimulator"
+    ]
+  },
+  "clangVersion" : "clang-1403.0.22.14.1",
+  "pin" : {
+    "revision" : "9055e7c7297f81ed0d962de5058a48be997093b5",
+    "version" : "1.0.0"
+  },
+  "scipioVersion" : "9456405b33f2a25c479ea31cad0ba3c0222d9e20",
+  "targetName" : "RawStructuredFieldValues"
+}

@@ -10,11 +10,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Jp0vR2W5MMr5LDGP6lD7aoGXSFY=
+		KIwiq2rkINKhQOBR7KFKzXh7ecQ=
+		</data>
+		<key>Modules/StructuredFieldValues.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
+		<data>
+		KtD15+FRY5oW2tSeOHzay113BTI=
+		</data>
+		<key>Modules/StructuredFieldValues.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<data>
+		GZ31mHjsXFIy1E5Tb1mfbtrhw8w=
 		</data>
 		<key>Modules/StructuredFieldValues.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		rM2Tv+uPkZGRnO/ZYNu/B4vHF2I=
+		WjxLExuMArdy9grZZdRWxS3VMtI=
 		</data>
 		<key>Modules/StructuredFieldValues.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -22,7 +30,7 @@
 		</data>
 		<key>Modules/StructuredFieldValues.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		5FBwOHTtgGBFeFGLKXPjjl+vR5k=
+		ELWByJoTbVkFHTn5878gFBAnMoo=
 		</data>
 		<key>Modules/StructuredFieldValues.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -30,11 +38,11 @@
 		</data>
 		<key>Modules/StructuredFieldValues.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		NzDvvXatUwnzL9t8mYT6t+ahBqE=
+		2mUjyHeYhylpWeIVmzGahLT7GK0=
 		</data>
 		<key>Modules/StructuredFieldValues.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		rM2Tv+uPkZGRnO/ZYNu/B4vHF2I=
+		WjxLExuMArdy9grZZdRWxS3VMtI=
 		</data>
 		<key>Modules/StructuredFieldValues.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -42,7 +50,7 @@
 		</data>
 		<key>Modules/StructuredFieldValues.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		4oBSL7hOy5xgft3uH+JHG8dVJTk=
+		e7nTHw+7jGQhpufFloAZMtF6U6o=
 		</data>
 		<key>Modules/StructuredFieldValues.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -50,7 +58,7 @@
 		</data>
 		<key>Modules/StructuredFieldValues.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		3OtFZ6hYVHLYqo1rLnmeGOc7azw=
+		6R7eeO83V0MwyhLz6UiQbbREAEk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -62,11 +70,25 @@
 			GZMbtZKPASnmEKAxtLdrdq/MRIQQFxI3cFzCB770g0A=
 			</data>
 		</dict>
+		<key>Modules/StructuredFieldValues.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+HmVhYep4dVhAfKuxFDjZJ9lHTFQPnyoXrFTe9ToNHo=
+			</data>
+		</dict>
+		<key>Modules/StructuredFieldValues.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			65wN8LbuYgb9zE2Gykvtaa0smXznHKxgjVCc4fP4KTs=
+			</data>
+		</dict>
 		<key>Modules/StructuredFieldValues.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iUW2M1HyxiRC0diNdT6fd7qA/jKD4ab4rca0Jy06/GE=
+			g0xRd4JITdVF3KLQyfKCeM47O+6RKrsRjTSbKvLGEps=
 			</data>
 		</dict>
 		<key>Modules/StructuredFieldValues.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -80,7 +102,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SuuLxYoCkwit4ebuvTPr+004fGQCUBX723IXoSq3rQk=
+			Rgy2SvEa94U08rujX/1AZO6CpzBRJvXwwt3katpH3cs=
 			</data>
 		</dict>
 		<key>Modules/StructuredFieldValues.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
@@ -94,14 +116,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			goDMCiVzo1g00mkKtjmZv5obw8wmChF2O/4TqztlDWs=
+			8nHnoQKNlhLXUkwUQSXRku0x6poYOFto3lbfHkhRc7w=
 			</data>
 		</dict>
 		<key>Modules/StructuredFieldValues.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iUW2M1HyxiRC0diNdT6fd7qA/jKD4ab4rca0Jy06/GE=
+			g0xRd4JITdVF3KLQyfKCeM47O+6RKrsRjTSbKvLGEps=
 			</data>
 		</dict>
 		<key>Modules/StructuredFieldValues.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -115,7 +137,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LMRsCpbPP7IN+tce4CboJj9gy/nC/L19Sm3Xhz/sy7E=
+			9NlNrGOjBhCOYqYz4hjymhKsg5JS5bvTwtqFHs59rSc=
 			</data>
 		</dict>
 		<key>Modules/StructuredFieldValues.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
@@ -129,7 +151,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			g8LM9/8LOhrmkNE5H+EhyZQhQSUoIj+qpYA8bPzUiX4=
+			uMrY3Rq/g90AwZIlLYdHD0YQ9z/lFQ5tAA49DsmsH/I=
 			</data>
 		</dict>
 	</dict>

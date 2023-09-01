@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "apple-swift-http-structured-headers-podspec",
+    platforms: [
+        .iOS(.v11)
+    ],
     products: [
         .library(
             name: "apple-swift-http-structured-headers-podspec",

@@ -61,6 +61,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF7ED9D52B61E0BF00A6B2E6 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = file; name = PrivacyInfo.xcprivacy; path = Sources/PrivacyInfo.xcprivacy; sourceTree = SOURCE_ROOT; };
 		OBJ_14 /* ASCII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASCII.swift; sourceTree = "<group>"; };
 		OBJ_15 /* ComponentTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentTypes.swift; sourceTree = "<group>"; };
 		OBJ_16 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
@@ -206,7 +207,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -215,7 +216,6 @@
 				OBJ_11 /* Dependencies */,
 				OBJ_39 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -230,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_9 /* Empty.swift */,
+				CF7ED9D52B61E0BF00A6B2E6 /* PrivacyInfo.xcprivacy */,
 			);
 			name = "apple-swift-http-structured-headers-podspec";
 			path = "Sources/apple-swift-http-structured-headers-podspec";
@@ -333,7 +334,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_39 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";

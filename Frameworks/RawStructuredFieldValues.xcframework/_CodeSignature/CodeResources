@@ -36,6 +36,10 @@
 		<data>
 		Fg2onIiLTh8UHaXPJdjOGgPU5nY=
 		</data>
+		<key>ios-arm64/RawStructuredFieldValues.framework/PrivacyInfo.xcprivacy</key>
+		<data>
+		B/LnVojtJjGhSKSzB65/9gt5Y/Y=
+		</data>
 		<key>ios-arm64/RawStructuredFieldValues.framework/RawStructuredFieldValues</key>
 		<data>
 		XCx67jhyCbDS9eBrfKVRbX8F86M=
@@ -103,6 +107,10 @@
 		<key>ios-arm64_x86_64-simulator/RawStructuredFieldValues.framework/Modules/module.modulemap</key>
 		<data>
 		Fg2onIiLTh8UHaXPJdjOGgPU5nY=
+		</data>
+		<key>ios-arm64_x86_64-simulator/RawStructuredFieldValues.framework/PrivacyInfo.xcprivacy</key>
+		<data>
+		B/LnVojtJjGhSKSzB65/9gt5Y/Y=
 		</data>
 		<key>ios-arm64_x86_64-simulator/RawStructuredFieldValues.framework/RawStructuredFieldValues</key>
 		<data>
@@ -213,6 +221,17 @@
 			<key>hash2</key>
 			<data>
 			RlVhmGuRsmJ0fY+15tb8gl7NmQCQdm4j1E6HRN8VijY=
+			</data>
+		</dict>
+		<key>ios-arm64/RawStructuredFieldValues.framework/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			B/LnVojtJjGhSKSzB65/9gt5Y/Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			I618dkyoqIaODP1L0QMAY+SflT/O1u8SuKcYrvRexMc=
 			</data>
 		</dict>
 		<key>ios-arm64/RawStructuredFieldValues.framework/RawStructuredFieldValues</key>
@@ -400,6 +419,17 @@
 			<key>hash2</key>
 			<data>
 			RlVhmGuRsmJ0fY+15tb8gl7NmQCQdm4j1E6HRN8VijY=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/RawStructuredFieldValues.framework/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			B/LnVojtJjGhSKSzB65/9gt5Y/Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			I618dkyoqIaODP1L0QMAY+SflT/O1u8SuKcYrvRexMc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/RawStructuredFieldValues.framework/RawStructuredFieldValues</key>

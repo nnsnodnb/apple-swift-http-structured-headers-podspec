@@ -9,11 +9,11 @@
       "iOSSimulator"
     ]
   },
-  "clangVersion" : "clang-1500.1.0.2.5",
+  "clangVersion" : "clang-1500.0.40.1",
   "pin" : {
     "revision" : "9055e7c7297f81ed0d962de5058a48be997093b5",
     "version" : "1.0.0"
   },
-  "scipioVersion" : "b2d8453fe73edbb016af1de89195a6f7b30f9f0e",
+  "scipioVersion" : "55aec8cabd5cf9f5c4dd97e73782b0c4cc90569a",
   "targetName" : "StructuredFieldValues"
 }

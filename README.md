@@ -9,7 +9,7 @@
 ```ruby
 pod 'swift-http-structured-headers',
     :git => 'https://github.com/nnsnodnb/apple-swift-http-structured-headers-podspec.git',
-    :tag => '1.0.0'
+    :tag => '1.1.0'
 ```
 
 Following to Swift Package Manager's usage.

@@ -14,6 +14,10 @@
     "revision" : "8cc27e208a4430d5b727fbe0bbb8b832249043b4",
     "version" : "1.1.0"
   },
-  "scipioVersion" : "55aec8cabd5cf9f5c4dd97e73782b0c4cc90569a",
-  "targetName" : "RawStructuredFieldValues"
+  "scipioVersion" : "2b6d90255384aae0f371e5b5f93098548b167c47",
+  "targetName" : "RawStructuredFieldValues",
+  "xcodeVersion" : {
+    "xcodeBuildVersion" : "16A242d",
+    "xcodeVersion" : "16.0"
+  }
 }

@@ -1,4 +1,4 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.8
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/apple/swift-http-structured-headers.git",
-            .upToNextMinor(from: "1.0.0")
+            .upToNextMinor(from: "1.1.0")
         ),
     ],
     targets: [

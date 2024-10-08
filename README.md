@@ -2,7 +2,7 @@
 
 ## Required
 
-- Swift 5.7.2 or later
+- Swift 5.8 or later
 
 ## Usage
 

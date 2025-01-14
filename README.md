@@ -2,14 +2,14 @@
 
 ## Required
 
-- Swift 5.8 or later
+- Swift 6.0.2 or later
 
 ## Usage
 
 ```ruby
 pod 'swift-http-structured-headers',
     :git => 'https://github.com/nnsnodnb/apple-swift-http-structured-headers-podspec.git',
-    :tag => '1.1.0'
+    :tag => '1.2.0'
 ```
 
 Following to Swift Package Manager's usage.

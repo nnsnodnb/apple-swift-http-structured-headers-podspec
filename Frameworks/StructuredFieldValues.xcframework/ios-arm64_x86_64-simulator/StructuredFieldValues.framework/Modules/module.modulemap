@@ -1,0 +1,5 @@
+framework module StructuredFieldValues {
+    header "StructuredFieldValues-Swift.h"
+    export *
+    link framework "RawStructuredFieldValues"
+}

@@ -1,0 +1,2167 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "StructuredFieldValues",
+    "printedName": "StructuredFieldValues",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StructuredFieldValues",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RawStructuredFieldValues",
+        "printedName": "RawStructuredFieldValues",
+        "declKind": "Import",
+        "moduleName": "StructuredFieldValues"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StructuredFieldValues",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RawStructuredFieldValues",
+        "printedName": "RawStructuredFieldValues",
+        "declKind": "Import",
+        "moduleName": "StructuredFieldValues"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StructuredFieldValues",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RawStructuredFieldValues",
+        "printedName": "RawStructuredFieldValues",
+        "declKind": "Import",
+        "moduleName": "StructuredFieldValues"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StructuredFieldValues",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RawStructuredFieldValues",
+        "printedName": "RawStructuredFieldValues",
+        "declKind": "Import",
+        "moduleName": "StructuredFieldValues"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StructuredFieldValues",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RawStructuredFieldValues",
+        "printedName": "RawStructuredFieldValues",
+        "declKind": "Import",
+        "moduleName": "StructuredFieldValues"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StructuredFieldValues",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RawStructuredFieldValues",
+        "printedName": "RawStructuredFieldValues",
+        "declKind": "Import",
+        "moduleName": "StructuredFieldValues"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StructuredFieldValues",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RawStructuredFieldValues",
+        "printedName": "RawStructuredFieldValues",
+        "declKind": "Import",
+        "moduleName": "StructuredFieldValues"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StructuredFieldValues",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RawStructuredFieldValues",
+        "printedName": "RawStructuredFieldValues",
+        "declKind": "Import",
+        "moduleName": "StructuredFieldValues"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StructuredFieldValueDecoder",
+        "printedName": "StructuredFieldValueDecoder",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "keyDecodingStrategy",
+            "printedName": "keyDecodingStrategy",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "StructuredFieldValues.StructuredFieldValueDecoder.KeyDecodingStrategy?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyDecodingStrategy",
+                    "printedName": "StructuredFieldValues.StructuredFieldValueDecoder.KeyDecodingStrategy",
+                    "usr": "s:21StructuredFieldValues0aB12ValueDecoderV19KeyDecodingStrategyV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21StructuredFieldValues0aB12ValueDecoderV19keyDecodingStrategyAC03KeygH0VSgvp",
+            "mangledName": "$s21StructuredFieldValues0aB12ValueDecoderV19keyDecodingStrategyAC03KeygH0VSgvp",
+            "moduleName": "StructuredFieldValues",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "StructuredFieldValues.StructuredFieldValueDecoder.KeyDecodingStrategy?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeyDecodingStrategy",
+                        "printedName": "StructuredFieldValues.StructuredFieldValueDecoder.KeyDecodingStrategy",
+                        "usr": "s:21StructuredFieldValues0aB12ValueDecoderV19KeyDecodingStrategyV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21StructuredFieldValues0aB12ValueDecoderV19keyDecodingStrategyAC03KeygH0VSgvg",
+                "mangledName": "$s21StructuredFieldValues0aB12ValueDecoderV19keyDecodingStrategyAC03KeygH0VSgvg",
+                "moduleName": "StructuredFieldValues",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "StructuredFieldValues.StructuredFieldValueDecoder.KeyDecodingStrategy?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeyDecodingStrategy",
+                        "printedName": "StructuredFieldValues.StructuredFieldValueDecoder.KeyDecodingStrategy",
+                        "usr": "s:21StructuredFieldValues0aB12ValueDecoderV19KeyDecodingStrategyV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21StructuredFieldValues0aB12ValueDecoderV19keyDecodingStrategyAC03KeygH0VSgvs",
+                "mangledName": "$s21StructuredFieldValues0aB12ValueDecoderV19keyDecodingStrategyAC03KeygH0VSgvs",
+                "moduleName": "StructuredFieldValues",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21StructuredFieldValues0aB12ValueDecoderV19keyDecodingStrategyAC03KeygH0VSgvM",
+                "mangledName": "$s21StructuredFieldValues0aB12ValueDecoderV19keyDecodingStrategyAC03KeygH0VSgvM",
+                "moduleName": "StructuredFieldValues",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StructuredFieldValueDecoder",
+                "printedName": "StructuredFieldValues.StructuredFieldValueDecoder",
+                "usr": "s:21StructuredFieldValues0aB12ValueDecoderV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21StructuredFieldValues0aB12ValueDecoderVACycfc",
+            "mangledName": "$s21StructuredFieldValues0aB12ValueDecoderVACycfc",
+            "moduleName": "StructuredFieldValues",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "KeyDecodingStrategy",
+            "printedName": "KeyDecodingStrategy",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "lowercase",
+                "printedName": "lowercase",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyDecodingStrategy",
+                    "printedName": "StructuredFieldValues.StructuredFieldValueDecoder.KeyDecodingStrategy",
+                    "usr": "s:21StructuredFieldValues0aB12ValueDecoderV19KeyDecodingStrategyV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:21StructuredFieldValues0aB12ValueDecoderV19KeyDecodingStrategyV9lowercaseAEvpZ",
+                "mangledName": "$s21StructuredFieldValues0aB12ValueDecoderV19KeyDecodingStrategyV9lowercaseAEvpZ",
+                "moduleName": "StructuredFieldValues",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeyDecodingStrategy",
+                        "printedName": "StructuredFieldValues.StructuredFieldValueDecoder.KeyDecodingStrategy",
+                        "usr": "s:21StructuredFieldValues0aB12ValueDecoderV19KeyDecodingStrategyV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21StructuredFieldValues0aB12ValueDecoderV19KeyDecodingStrategyV9lowercaseAEvgZ",
+                    "mangledName": "$s21StructuredFieldValues0aB12ValueDecoderV19KeyDecodingStrategyV9lowercaseAEvgZ",
+                    "moduleName": "StructuredFieldValues",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:21StructuredFieldValues0aB12ValueDecoderV19KeyDecodingStrategyV04hashD0Sivp",
+                "mangledName": "$s21StructuredFieldValues0aB12ValueDecoderV19KeyDecodingStrategyV04hashD0Sivp",
+                "moduleName": "StructuredFieldValues",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21StructuredFieldValues0aB12ValueDecoderV19KeyDecodingStrategyV04hashD0Sivg",
+                    "mangledName": "$s21StructuredFieldValues0aB12ValueDecoderV19KeyDecodingStrategyV04hashD0Sivg",
+                    "moduleName": "StructuredFieldValues",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:21StructuredFieldValues0aB12ValueDecoderV19KeyDecodingStrategyV4hash4intoys6HasherVz_tF",
+                "mangledName": "$s21StructuredFieldValues0aB12ValueDecoderV19KeyDecodingStrategyV4hash4intoys6HasherVz_tF",
+                "moduleName": "StructuredFieldValues",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyDecodingStrategy",
+                    "printedName": "StructuredFieldValues.StructuredFieldValueDecoder.KeyDecodingStrategy",
+                    "usr": "s:21StructuredFieldValues0aB12ValueDecoderV19KeyDecodingStrategyV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyDecodingStrategy",
+                    "printedName": "StructuredFieldValues.StructuredFieldValueDecoder.KeyDecodingStrategy",
+                    "usr": "s:21StructuredFieldValues0aB12ValueDecoderV19KeyDecodingStrategyV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:21StructuredFieldValues0aB12ValueDecoderV19KeyDecodingStrategyV2eeoiySbAE_AEtFZ",
+                "mangledName": "$s21StructuredFieldValues0aB12ValueDecoderV19KeyDecodingStrategyV2eeoiySbAE_AEtFZ",
+                "moduleName": "StructuredFieldValues",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:21StructuredFieldValues0aB12ValueDecoderV19KeyDecodingStrategyV",
+            "mangledName": "$s21StructuredFieldValues0aB12ValueDecoderV19KeyDecodingStrategyV",
+            "moduleName": "StructuredFieldValues",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "decode",
+            "printedName": "decode(_:from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "hasDefaultArg": true
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_1"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21StructuredFieldValues0aB12ValueDecoderV6decode_4fromxxm_q_tKAA0abD0RzSkR_s5UInt8V7ElementRt_r0_lF",
+            "mangledName": "$s21StructuredFieldValues0aB12ValueDecoderV6decode_4fromxxm_q_tKAA0abD0RzSkR_s5UInt8V7ElementRt_r0_lF",
+            "moduleName": "StructuredFieldValues",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : StructuredFieldValues.StructuredFieldValue, τ_0_1 : Swift.RandomAccessCollection, τ_0_1.Element == Swift.UInt8>",
+            "sugared_genericSig": "<StructuredField, BaseData where StructuredField : StructuredFieldValues.StructuredFieldValue, BaseData : Swift.RandomAccessCollection, BaseData.Element == Swift.UInt8>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:21StructuredFieldValues0aB12ValueDecoderV",
+        "mangledName": "$s21StructuredFieldValues0aB12ValueDecoderV",
+        "moduleName": "StructuredFieldValues",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RawStructuredFieldValues",
+        "printedName": "RawStructuredFieldValues",
+        "declKind": "Import",
+        "moduleName": "StructuredFieldValues",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StructuredFieldValues",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RawStructuredFieldValues",
+        "printedName": "RawStructuredFieldValues",
+        "declKind": "Import",
+        "moduleName": "StructuredFieldValues"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DisplayString",
+        "printedName": "DisplayString",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21StructuredFieldValues13DisplayStringV8rawValueSSvp",
+            "mangledName": "$s21StructuredFieldValues13DisplayStringV8rawValueSSvp",
+            "moduleName": "StructuredFieldValues",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21StructuredFieldValues13DisplayStringV8rawValueSSvg",
+                "mangledName": "$s21StructuredFieldValues13DisplayStringV8rawValueSSvg",
+                "moduleName": "StructuredFieldValues",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21StructuredFieldValues13DisplayStringV8rawValueSSvs",
+                "mangledName": "$s21StructuredFieldValues13DisplayStringV8rawValueSSvs",
+                "moduleName": "StructuredFieldValues",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21StructuredFieldValues13DisplayStringV8rawValueSSvM",
+                "mangledName": "$s21StructuredFieldValues13DisplayStringV8rawValueSSvM",
+                "moduleName": "StructuredFieldValues",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DisplayString",
+                "printedName": "StructuredFieldValues.DisplayString",
+                "usr": "s:21StructuredFieldValues13DisplayStringV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21StructuredFieldValues13DisplayStringV8rawValueACSS_tcfc",
+            "mangledName": "$s21StructuredFieldValues13DisplayStringV8rawValueACSS_tcfc",
+            "moduleName": "StructuredFieldValues",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:21StructuredFieldValues13DisplayStringV",
+        "mangledName": "$s21StructuredFieldValues13DisplayStringV",
+        "moduleName": "StructuredFieldValues",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RawStructuredFieldValues",
+        "printedName": "RawStructuredFieldValues",
+        "declKind": "Import",
+        "moduleName": "StructuredFieldValues",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RawStructuredFieldValues",
+        "printedName": "RawStructuredFieldValues",
+        "declKind": "Import",
+        "moduleName": "StructuredFieldValues",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StructuredFieldValues",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RawStructuredFieldValues",
+        "printedName": "RawStructuredFieldValues",
+        "declKind": "Import",
+        "moduleName": "StructuredFieldValues"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StructuredFieldValueEncoder",
+        "printedName": "StructuredFieldValueEncoder",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "keyEncodingStrategy",
+            "printedName": "keyEncodingStrategy",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "StructuredFieldValues.StructuredFieldValueEncoder.KeyEncodingStrategy?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyEncodingStrategy",
+                    "printedName": "StructuredFieldValues.StructuredFieldValueEncoder.KeyEncodingStrategy",
+                    "usr": "s:21StructuredFieldValues0aB12ValueEncoderV19KeyEncodingStrategyV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21StructuredFieldValues0aB12ValueEncoderV19keyEncodingStrategyAC03KeygH0VSgvp",
+            "mangledName": "$s21StructuredFieldValues0aB12ValueEncoderV19keyEncodingStrategyAC03KeygH0VSgvp",
+            "moduleName": "StructuredFieldValues",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "StructuredFieldValues.StructuredFieldValueEncoder.KeyEncodingStrategy?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeyEncodingStrategy",
+                        "printedName": "StructuredFieldValues.StructuredFieldValueEncoder.KeyEncodingStrategy",
+                        "usr": "s:21StructuredFieldValues0aB12ValueEncoderV19KeyEncodingStrategyV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21StructuredFieldValues0aB12ValueEncoderV19keyEncodingStrategyAC03KeygH0VSgvg",
+                "mangledName": "$s21StructuredFieldValues0aB12ValueEncoderV19keyEncodingStrategyAC03KeygH0VSgvg",
+                "moduleName": "StructuredFieldValues",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "StructuredFieldValues.StructuredFieldValueEncoder.KeyEncodingStrategy?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeyEncodingStrategy",
+                        "printedName": "StructuredFieldValues.StructuredFieldValueEncoder.KeyEncodingStrategy",
+                        "usr": "s:21StructuredFieldValues0aB12ValueEncoderV19KeyEncodingStrategyV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21StructuredFieldValues0aB12ValueEncoderV19keyEncodingStrategyAC03KeygH0VSgvs",
+                "mangledName": "$s21StructuredFieldValues0aB12ValueEncoderV19keyEncodingStrategyAC03KeygH0VSgvs",
+                "moduleName": "StructuredFieldValues",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21StructuredFieldValues0aB12ValueEncoderV19keyEncodingStrategyAC03KeygH0VSgvM",
+                "mangledName": "$s21StructuredFieldValues0aB12ValueEncoderV19keyEncodingStrategyAC03KeygH0VSgvM",
+                "moduleName": "StructuredFieldValues",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StructuredFieldValueEncoder",
+                "printedName": "StructuredFieldValues.StructuredFieldValueEncoder",
+                "usr": "s:21StructuredFieldValues0aB12ValueEncoderV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21StructuredFieldValues0aB12ValueEncoderVACycfc",
+            "mangledName": "$s21StructuredFieldValues0aB12ValueEncoderVACycfc",
+            "moduleName": "StructuredFieldValues",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "KeyEncodingStrategy",
+            "printedName": "KeyEncodingStrategy",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "lowercase",
+                "printedName": "lowercase",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyEncodingStrategy",
+                    "printedName": "StructuredFieldValues.StructuredFieldValueEncoder.KeyEncodingStrategy",
+                    "usr": "s:21StructuredFieldValues0aB12ValueEncoderV19KeyEncodingStrategyV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:21StructuredFieldValues0aB12ValueEncoderV19KeyEncodingStrategyV9lowercaseAEvpZ",
+                "mangledName": "$s21StructuredFieldValues0aB12ValueEncoderV19KeyEncodingStrategyV9lowercaseAEvpZ",
+                "moduleName": "StructuredFieldValues",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeyEncodingStrategy",
+                        "printedName": "StructuredFieldValues.StructuredFieldValueEncoder.KeyEncodingStrategy",
+                        "usr": "s:21StructuredFieldValues0aB12ValueEncoderV19KeyEncodingStrategyV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21StructuredFieldValues0aB12ValueEncoderV19KeyEncodingStrategyV9lowercaseAEvgZ",
+                    "mangledName": "$s21StructuredFieldValues0aB12ValueEncoderV19KeyEncodingStrategyV9lowercaseAEvgZ",
+                    "moduleName": "StructuredFieldValues",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:21StructuredFieldValues0aB12ValueEncoderV19KeyEncodingStrategyV04hashD0Sivp",
+                "mangledName": "$s21StructuredFieldValues0aB12ValueEncoderV19KeyEncodingStrategyV04hashD0Sivp",
+                "moduleName": "StructuredFieldValues",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21StructuredFieldValues0aB12ValueEncoderV19KeyEncodingStrategyV04hashD0Sivg",
+                    "mangledName": "$s21StructuredFieldValues0aB12ValueEncoderV19KeyEncodingStrategyV04hashD0Sivg",
+                    "moduleName": "StructuredFieldValues",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:21StructuredFieldValues0aB12ValueEncoderV19KeyEncodingStrategyV4hash4intoys6HasherVz_tF",
+                "mangledName": "$s21StructuredFieldValues0aB12ValueEncoderV19KeyEncodingStrategyV4hash4intoys6HasherVz_tF",
+                "moduleName": "StructuredFieldValues",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyEncodingStrategy",
+                    "printedName": "StructuredFieldValues.StructuredFieldValueEncoder.KeyEncodingStrategy",
+                    "usr": "s:21StructuredFieldValues0aB12ValueEncoderV19KeyEncodingStrategyV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyEncodingStrategy",
+                    "printedName": "StructuredFieldValues.StructuredFieldValueEncoder.KeyEncodingStrategy",
+                    "usr": "s:21StructuredFieldValues0aB12ValueEncoderV19KeyEncodingStrategyV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:21StructuredFieldValues0aB12ValueEncoderV19KeyEncodingStrategyV2eeoiySbAE_AEtFZ",
+                "mangledName": "$s21StructuredFieldValues0aB12ValueEncoderV19KeyEncodingStrategyV2eeoiySbAE_AEtFZ",
+                "moduleName": "StructuredFieldValues",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:21StructuredFieldValues0aB12ValueEncoderV19KeyEncodingStrategyV",
+            "mangledName": "$s21StructuredFieldValues0aB12ValueEncoderV19KeyEncodingStrategyV",
+            "moduleName": "StructuredFieldValues",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21StructuredFieldValues0aB12ValueEncoderV6encodeySays5UInt8VGxKAA0abD0RzlF",
+            "mangledName": "$s21StructuredFieldValues0aB12ValueEncoderV6encodeySays5UInt8VGxKAA0abD0RzlF",
+            "moduleName": "StructuredFieldValues",
+            "genericSig": "<τ_0_0 where τ_0_0 : StructuredFieldValues.StructuredFieldValue>",
+            "sugared_genericSig": "<StructuredField where StructuredField : StructuredFieldValues.StructuredFieldValue>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:21StructuredFieldValues0aB12ValueEncoderV",
+        "mangledName": "$s21StructuredFieldValues0aB12ValueEncoderV",
+        "moduleName": "StructuredFieldValues",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StructuredFieldValue",
+        "printedName": "StructuredFieldValue",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "structuredFieldType",
+            "printedName": "structuredFieldType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StructuredFieldType",
+                "printedName": "StructuredFieldValues.StructuredFieldType",
+                "usr": "s:21StructuredFieldValues0aB4TypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21StructuredFieldValues0aB5ValueP010structuredB4TypeAA0abF0OvpZ",
+            "mangledName": "$s21StructuredFieldValues0aB5ValueP010structuredB4TypeAA0abF0OvpZ",
+            "moduleName": "StructuredFieldValues",
+            "static": true,
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StructuredFieldType",
+                    "printedName": "StructuredFieldValues.StructuredFieldType",
+                    "usr": "s:21StructuredFieldValues0aB4TypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21StructuredFieldValues0aB5ValueP010structuredB4TypeAA0abF0OvgZ",
+                "mangledName": "$s21StructuredFieldValues0aB5ValueP010structuredB4TypeAA0abF0OvgZ",
+                "moduleName": "StructuredFieldValues",
+                "genericSig": "<τ_0_0 where τ_0_0 : StructuredFieldValues.StructuredFieldValue>",
+                "sugared_genericSig": "<Self where Self : StructuredFieldValues.StructuredFieldValue>",
+                "static": true,
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:21StructuredFieldValues0aB5ValueP",
+        "mangledName": "$s21StructuredFieldValues0aB5ValueP",
+        "moduleName": "StructuredFieldValues",
+        "genericSig": "<τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+        "sugared_genericSig": "<Self : Swift.Decodable, Self : Swift.Encodable>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StructuredFieldType",
+        "printedName": "StructuredFieldType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "item",
+            "printedName": "item",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(StructuredFieldValues.StructuredFieldType.Type) -> StructuredFieldValues.StructuredFieldType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StructuredFieldType",
+                    "printedName": "StructuredFieldValues.StructuredFieldType",
+                    "usr": "s:21StructuredFieldValues0aB4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "StructuredFieldValues.StructuredFieldType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StructuredFieldType",
+                        "printedName": "StructuredFieldValues.StructuredFieldType",
+                        "usr": "s:21StructuredFieldValues0aB4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21StructuredFieldValues0aB4TypeO4itemyA2CmF",
+            "mangledName": "$s21StructuredFieldValues0aB4TypeO4itemyA2CmF",
+            "moduleName": "StructuredFieldValues",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "list",
+            "printedName": "list",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(StructuredFieldValues.StructuredFieldType.Type) -> StructuredFieldValues.StructuredFieldType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StructuredFieldType",
+                    "printedName": "StructuredFieldValues.StructuredFieldType",
+                    "usr": "s:21StructuredFieldValues0aB4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "StructuredFieldValues.StructuredFieldType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StructuredFieldType",
+                        "printedName": "StructuredFieldValues.StructuredFieldType",
+                        "usr": "s:21StructuredFieldValues0aB4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21StructuredFieldValues0aB4TypeO4listyA2CmF",
+            "mangledName": "$s21StructuredFieldValues0aB4TypeO4listyA2CmF",
+            "moduleName": "StructuredFieldValues",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dictionary",
+            "printedName": "dictionary",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(StructuredFieldValues.StructuredFieldType.Type) -> StructuredFieldValues.StructuredFieldType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StructuredFieldType",
+                    "printedName": "StructuredFieldValues.StructuredFieldType",
+                    "usr": "s:21StructuredFieldValues0aB4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "StructuredFieldValues.StructuredFieldType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StructuredFieldType",
+                        "printedName": "StructuredFieldValues.StructuredFieldType",
+                        "usr": "s:21StructuredFieldValues0aB4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21StructuredFieldValues0aB4TypeO10dictionaryyA2CmF",
+            "mangledName": "$s21StructuredFieldValues0aB4TypeO10dictionaryyA2CmF",
+            "moduleName": "StructuredFieldValues",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StructuredFieldType",
+                "printedName": "StructuredFieldValues.StructuredFieldType",
+                "usr": "s:21StructuredFieldValues0aB4TypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StructuredFieldType",
+                "printedName": "StructuredFieldValues.StructuredFieldType",
+                "usr": "s:21StructuredFieldValues0aB4TypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21StructuredFieldValues0aB4TypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s21StructuredFieldValues0aB4TypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "StructuredFieldValues",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21StructuredFieldValues0aB4TypeO9hashValueSivp",
+            "mangledName": "$s21StructuredFieldValues0aB4TypeO9hashValueSivp",
+            "moduleName": "StructuredFieldValues",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21StructuredFieldValues0aB4TypeO9hashValueSivg",
+                "mangledName": "$s21StructuredFieldValues0aB4TypeO9hashValueSivg",
+                "moduleName": "StructuredFieldValues",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21StructuredFieldValues0aB4TypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s21StructuredFieldValues0aB4TypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "StructuredFieldValues",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:21StructuredFieldValues0aB4TypeO",
+        "mangledName": "$s21StructuredFieldValues0aB4TypeO",
+        "moduleName": "StructuredFieldValues",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Decoder\/BareInnerListDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 909,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Decoder\/BareInnerListDecoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1362,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Decoder\/BareInnerListDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1784,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Decoder\/BareInnerListDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3124,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Decoder\/BareInnerListDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3612,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Decoder\/BareItemDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3781,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Decoder\/BareItemDecoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4496,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Decoder\/KeyedInnerListDecoder.swift",
+      "kind": "Array",
+      "offset": 597,
+      "length": 23,
+      "value": "[\"items\", \"parameters\"]"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Decoder\/KeyedInnerListDecoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1620,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Decoder\/KeyedItemDecoder.swift",
+      "kind": "Array",
+      "offset": 592,
+      "length": 22,
+      "value": "[\"item\", \"parameters\"]"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Decoder\/KeyedItemDecoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1557,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Decoder\/KeyedTopLevelListDecoder.swift",
+      "kind": "Array",
+      "offset": 600,
+      "length": 9,
+      "value": "[\"items\"]"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Decoder\/KeyedTopLevelListDecoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1592,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Decoder\/StructuredFieldValueDecoder.swift",
+      "kind": "Array",
+      "offset": 6497,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Decoder\/StructuredFieldValueDecoder.swift",
+      "kind": "Dictionary",
+      "offset": 6757,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Decoder\/StructuredFieldValueDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 9797,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Decoder\/StructuredFieldValueDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 10163,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Decoder\/StructuredFieldValueDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 10523,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Decoder\/StructuredFieldValueDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 12154,
+      "length": 7,
+      "value": "\"items\""
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Decoder\/StructuredFieldValueDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 12590,
+      "length": 6,
+      "value": "\"item\""
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Decoder\/StructuredFieldValueDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 12678,
+      "length": 12,
+      "value": "\"parameters\""
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Decoder\/StructuredFieldValueDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 13314,
+      "length": 7,
+      "value": "\"items\""
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Decoder\/StructuredFieldValueDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 13411,
+      "length": 12,
+      "value": "\"parameters\""
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Decoder\/StructuredHeaderCodingKey.swift",
+      "kind": "StringLiteral",
+      "offset": 788,
+      "length": 13,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Decoder\/StructuredHeaderCodingKey.swift",
+      "kind": "StringLiteral",
+      "offset": 800,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Decoder\/StructuredHeaderCodingKey.swift",
+      "kind": "StringLiteral",
+      "offset": 1197,
+      "length": 31,
+      "value": "\"Invalid key decoding strategy\""
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Decoder\/TopLevelListDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 916,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Decoder\/TopLevelListDecoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1368,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Decoder\/TopLevelListDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1790,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Decoder\/TopLevelListDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3130,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Decoder\/TopLevelListDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3618,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "Array",
+      "offset": 4690,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 4873,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 5065,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "Array",
+      "offset": 5377,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 5732,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "Array",
+      "offset": 6021,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 6388,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "Array",
+      "offset": 7203,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "Dictionary",
+      "offset": 7612,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11446,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11451,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14299,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14408,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 14512,
+      "length": 60,
+      "value": "\"Cannot have unkeyed container at \""
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 14571,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16801,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16806,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "Dictionary",
+      "offset": 18835,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "Array",
+      "offset": 19090,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "Dictionary",
+      "offset": 19345,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23646,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23651,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "Dictionary",
+      "offset": 26313,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "Dictionary",
+      "offset": 26517,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 26651,
+      "length": 12,
+      "value": "\"parameters\""
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "Dictionary",
+      "offset": 26836,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 26996,
+      "length": 7,
+      "value": "\"items\""
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "Array",
+      "offset": 27092,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 27200,
+      "length": 12,
+      "value": "\"parameters\""
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "Dictionary",
+      "offset": 27298,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 27594,
+      "length": 7,
+      "value": "\"items\""
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "Array",
+      "offset": 27729,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "Array",
+      "offset": 27841,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 27949,
+      "length": 12,
+      "value": "\"parameters\""
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "Dictionary",
+      "offset": 28047,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 28326,
+      "length": 7,
+      "value": "\"items\""
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "Array",
+      "offset": 28468,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 31418,
+      "length": 12,
+      "value": "\"parameters\""
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 31657,
+      "length": 12,
+      "value": "\"parameters\""
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 31851,
+      "length": 7,
+      "value": "\"items\""
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 32412,
+      "length": 12,
+      "value": "\"parameters\""
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 33064,
+      "length": 7,
+      "value": "\"items\""
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 34242,
+      "length": 6,
+      "value": "\"item\""
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "Dictionary",
+      "offset": 34414,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 34498,
+      "length": 6,
+      "value": "\"item\""
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 34954,
+      "length": 6,
+      "value": "\"item\""
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "Dictionary",
+      "offset": 35444,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "Dictionary",
+      "offset": 35663,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "Dictionary",
+      "offset": 36328,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "Dictionary",
+      "offset": 36442,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "Dictionary",
+      "offset": 36603,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "Dictionary",
+      "offset": 36758,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
+      "kind": "Dictionary",
+      "offset": 37016,
+      "length": 3,
+      "value": "[]"
+    }
+  ]
+}

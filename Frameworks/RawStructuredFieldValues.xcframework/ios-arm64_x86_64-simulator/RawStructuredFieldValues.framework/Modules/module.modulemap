@@ -1,4 +1,0 @@
-framework module RawStructuredFieldValues {
-    header "RawStructuredFieldValues-Swift.h"
-    export *
-}

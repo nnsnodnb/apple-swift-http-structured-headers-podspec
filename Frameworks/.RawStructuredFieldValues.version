@@ -4,20 +4,21 @@
     "enableLibraryEvolution" : true,
     "frameworkType" : "dynamic",
     "isDebugSymbolsEmbedded" : true,
+    "keepPublicHeadersStructure" : false,
     "sdks" : [
       "iOS",
       "iOSSimulator"
     ]
   },
-  "clangVersion" : "clang-1600.0.26.3",
+  "clangVersion" : "clang-1600.0.26.4",
   "pin" : {
-    "revision" : "8cc27e208a4430d5b727fbe0bbb8b832249043b4",
-    "version" : "1.1.0"
+    "revision" : "d01361d32e14ae9b70ea5bd308a3794a198a2706",
+    "version" : "1.2.0"
   },
-  "scipioVersion" : "2b6d90255384aae0f371e5b5f93098548b167c47",
+  "scipioVersion" : "b02e8049699f2b079a275979590618e61cbc869b",
   "targetName" : "RawStructuredFieldValues",
   "xcodeVersion" : {
-    "xcodeBuildVersion" : "16A242d",
-    "xcodeVersion" : "16.0"
+    "xcodeBuildVersion" : "16B40",
+    "xcodeVersion" : "16.1"
   }
 }

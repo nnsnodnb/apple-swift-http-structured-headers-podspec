@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name StructuredFieldValues
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature StrictConcurrency=complete -enable-upcoming-feature MemberImportVisibility -enable-bare-slash-regex -module-name StructuredFieldValues
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Foundation
 import RawStructuredFieldValues
@@ -25,6 +25,11 @@ extension StructuredFieldValues.StructuredFieldValueDecoder {
 extension StructuredFieldValues.StructuredFieldValueDecoder {
   public func decode<StructuredField, BaseData>(_ type: StructuredField.Type = StructuredField.self, from data: BaseData) throws -> StructuredField where StructuredField : StructuredFieldValues.StructuredFieldValue, BaseData : Swift.RandomAccessCollection, BaseData.Element == Swift.UInt8
 }
+public struct DisplayString : Swift.RawRepresentable, Swift.Codable, Swift.Equatable, Swift.Hashable {
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String
+  public init(rawValue: Swift.String)
+}
 public struct StructuredFieldValueEncoder : Swift.Sendable {
   public var keyEncodingStrategy: StructuredFieldValues.StructuredFieldValueEncoder.KeyEncodingStrategy?
   public init()
@@ -45,7 +50,7 @@ extension StructuredFieldValues.StructuredFieldValueEncoder {
 public protocol StructuredFieldValue : Swift.Decodable, Swift.Encodable {
   static var structuredFieldType: StructuredFieldValues.StructuredFieldType { get }
 }
-public enum StructuredFieldType {
+public enum StructuredFieldType : Swift.Sendable {
   case item
   case list
   case dictionary

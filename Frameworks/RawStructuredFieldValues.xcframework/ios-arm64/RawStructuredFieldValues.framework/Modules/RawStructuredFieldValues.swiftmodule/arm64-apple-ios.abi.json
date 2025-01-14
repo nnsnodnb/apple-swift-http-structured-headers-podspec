@@ -796,8 +796,10 @@
         "usr": "s:24RawStructuredFieldValues8BareItemO",
         "mangledName": "$s24RawStructuredFieldValues8BareItemO",
         "moduleName": "RawStructuredFieldValues",
+        "deprecated": true,
         "declAttributes": [
           "AccessControl",
+          "Available",
           "RawDocComment"
         ],
         "conformances": [
@@ -972,6 +974,826 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "RFC9651BareItem",
+        "printedName": "RFC9651BareItem",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "bool",
+            "printedName": "bool",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RawStructuredFieldValues.RFC9651BareItem.Type) -> (Swift.Bool) -> RawStructuredFieldValues.RFC9651BareItem",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> RawStructuredFieldValues.RFC9651BareItem",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RFC9651BareItem",
+                        "printedName": "RawStructuredFieldValues.RFC9651BareItem",
+                        "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RawStructuredFieldValues.RFC9651BareItem.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RFC9651BareItem",
+                        "printedName": "RawStructuredFieldValues.RFC9651BareItem",
+                        "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO4boolyACSbcACmF",
+            "mangledName": "$s24RawStructuredFieldValues15RFC9651BareItemO4boolyACSbcACmF",
+            "moduleName": "RawStructuredFieldValues",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "integer",
+            "printedName": "integer",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RawStructuredFieldValues.RFC9651BareItem.Type) -> (Swift.Int64) -> RawStructuredFieldValues.RFC9651BareItem",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int64) -> RawStructuredFieldValues.RFC9651BareItem",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RFC9651BareItem",
+                        "printedName": "RawStructuredFieldValues.RFC9651BareItem",
+                        "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int64",
+                        "printedName": "Swift.Int64",
+                        "usr": "s:s5Int64V"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RawStructuredFieldValues.RFC9651BareItem.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RFC9651BareItem",
+                        "printedName": "RawStructuredFieldValues.RFC9651BareItem",
+                        "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO7integeryACs5Int64VcACmF",
+            "mangledName": "$s24RawStructuredFieldValues15RFC9651BareItemO7integeryACs5Int64VcACmF",
+            "moduleName": "RawStructuredFieldValues",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "decimal",
+            "printedName": "decimal",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RawStructuredFieldValues.RFC9651BareItem.Type) -> (RawStructuredFieldValues.PseudoDecimal) -> RawStructuredFieldValues.RFC9651BareItem",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(RawStructuredFieldValues.PseudoDecimal) -> RawStructuredFieldValues.RFC9651BareItem",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RFC9651BareItem",
+                        "printedName": "RawStructuredFieldValues.RFC9651BareItem",
+                        "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PseudoDecimal",
+                        "printedName": "RawStructuredFieldValues.PseudoDecimal",
+                        "usr": "s:24RawStructuredFieldValues13PseudoDecimalV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RawStructuredFieldValues.RFC9651BareItem.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RFC9651BareItem",
+                        "printedName": "RawStructuredFieldValues.RFC9651BareItem",
+                        "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO7decimalyAcA13PseudoDecimalVcACmF",
+            "mangledName": "$s24RawStructuredFieldValues15RFC9651BareItemO7decimalyAcA13PseudoDecimalVcACmF",
+            "moduleName": "RawStructuredFieldValues",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "string",
+            "printedName": "string",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RawStructuredFieldValues.RFC9651BareItem.Type) -> (Swift.String) -> RawStructuredFieldValues.RFC9651BareItem",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> RawStructuredFieldValues.RFC9651BareItem",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RFC9651BareItem",
+                        "printedName": "RawStructuredFieldValues.RFC9651BareItem",
+                        "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RawStructuredFieldValues.RFC9651BareItem.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RFC9651BareItem",
+                        "printedName": "RawStructuredFieldValues.RFC9651BareItem",
+                        "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO6stringyACSScACmF",
+            "mangledName": "$s24RawStructuredFieldValues15RFC9651BareItemO6stringyACSScACmF",
+            "moduleName": "RawStructuredFieldValues",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "undecodedByteSequence",
+            "printedName": "undecodedByteSequence",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RawStructuredFieldValues.RFC9651BareItem.Type) -> (Swift.String) -> RawStructuredFieldValues.RFC9651BareItem",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> RawStructuredFieldValues.RFC9651BareItem",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RFC9651BareItem",
+                        "printedName": "RawStructuredFieldValues.RFC9651BareItem",
+                        "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RawStructuredFieldValues.RFC9651BareItem.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RFC9651BareItem",
+                        "printedName": "RawStructuredFieldValues.RFC9651BareItem",
+                        "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO21undecodedByteSequenceyACSScACmF",
+            "mangledName": "$s24RawStructuredFieldValues15RFC9651BareItemO21undecodedByteSequenceyACSScACmF",
+            "moduleName": "RawStructuredFieldValues",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "token",
+            "printedName": "token",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RawStructuredFieldValues.RFC9651BareItem.Type) -> (Swift.String) -> RawStructuredFieldValues.RFC9651BareItem",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> RawStructuredFieldValues.RFC9651BareItem",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RFC9651BareItem",
+                        "printedName": "RawStructuredFieldValues.RFC9651BareItem",
+                        "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RawStructuredFieldValues.RFC9651BareItem.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RFC9651BareItem",
+                        "printedName": "RawStructuredFieldValues.RFC9651BareItem",
+                        "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO5tokenyACSScACmF",
+            "mangledName": "$s24RawStructuredFieldValues15RFC9651BareItemO5tokenyACSScACmF",
+            "moduleName": "RawStructuredFieldValues",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "date",
+            "printedName": "date",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RawStructuredFieldValues.RFC9651BareItem.Type) -> (Swift.Int64) -> RawStructuredFieldValues.RFC9651BareItem",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int64) -> RawStructuredFieldValues.RFC9651BareItem",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RFC9651BareItem",
+                        "printedName": "RawStructuredFieldValues.RFC9651BareItem",
+                        "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int64",
+                        "printedName": "Swift.Int64",
+                        "usr": "s:s5Int64V"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RawStructuredFieldValues.RFC9651BareItem.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RFC9651BareItem",
+                        "printedName": "RawStructuredFieldValues.RFC9651BareItem",
+                        "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO4dateyACs5Int64VcACmF",
+            "mangledName": "$s24RawStructuredFieldValues15RFC9651BareItemO4dateyACs5Int64VcACmF",
+            "moduleName": "RawStructuredFieldValues",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "displayString",
+            "printedName": "displayString",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RawStructuredFieldValues.RFC9651BareItem.Type) -> (Swift.String) -> RawStructuredFieldValues.RFC9651BareItem",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> RawStructuredFieldValues.RFC9651BareItem",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RFC9651BareItem",
+                        "printedName": "RawStructuredFieldValues.RFC9651BareItem",
+                        "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RawStructuredFieldValues.RFC9651BareItem.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RFC9651BareItem",
+                        "printedName": "RawStructuredFieldValues.RFC9651BareItem",
+                        "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO13displayStringyACSScACmF",
+            "mangledName": "$s24RawStructuredFieldValues15RFC9651BareItemO13displayStringyACSScACmF",
+            "moduleName": "RawStructuredFieldValues",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(booleanLiteral:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RFC9651BareItem",
+                "printedName": "RawStructuredFieldValues.RFC9651BareItem",
+                "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO14booleanLiteralACSb_tcfc",
+            "mangledName": "$s24RawStructuredFieldValues15RFC9651BareItemO14booleanLiteralACSb_tcfc",
+            "moduleName": "RawStructuredFieldValues",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(integerLiteral:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RFC9651BareItem",
+                "printedName": "RawStructuredFieldValues.RFC9651BareItem",
+                "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO14integerLiteralACs5Int64V_tcfc",
+            "mangledName": "$s24RawStructuredFieldValues15RFC9651BareItemO14integerLiteralACs5Int64V_tcfc",
+            "moduleName": "RawStructuredFieldValues",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(floatLiteral:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RFC9651BareItem",
+                "printedName": "RawStructuredFieldValues.RFC9651BareItem",
+                "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO12floatLiteralACSd_tcfc",
+            "mangledName": "$s24RawStructuredFieldValues15RFC9651BareItemO12floatLiteralACSd_tcfc",
+            "moduleName": "RawStructuredFieldValues",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(stringLiteral:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RFC9651BareItem",
+                "printedName": "RawStructuredFieldValues.RFC9651BareItem",
+                "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO13stringLiteralACSS_tcfc",
+            "mangledName": "$s24RawStructuredFieldValues15RFC9651BareItemO13stringLiteralACSS_tcfc",
+            "moduleName": "RawStructuredFieldValues",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO9hashValueSivp",
+            "mangledName": "$s24RawStructuredFieldValues15RFC9651BareItemO9hashValueSivp",
+            "moduleName": "RawStructuredFieldValues",
+            "implicit": true,
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO9hashValueSivg",
+                "mangledName": "$s24RawStructuredFieldValues15RFC9651BareItemO9hashValueSivg",
+                "moduleName": "RawStructuredFieldValues",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s24RawStructuredFieldValues15RFC9651BareItemO4hash4intoys6HasherVz_tF",
+            "moduleName": "RawStructuredFieldValues",
+            "implicit": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RFC9651BareItem",
+                "printedName": "RawStructuredFieldValues.RFC9651BareItem",
+                "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RFC9651BareItem",
+                "printedName": "RawStructuredFieldValues.RFC9651BareItem",
+                "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s24RawStructuredFieldValues15RFC9651BareItemO2eeoiySbAC_ACtFZ",
+            "moduleName": "RawStructuredFieldValues",
+            "static": true,
+            "implicit": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO",
+        "mangledName": "$s24RawStructuredFieldValues15RFC9651BareItemO",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByBooleanLiteral",
+            "printedName": "ExpressibleByBooleanLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "BooleanLiteralType",
+                "printedName": "BooleanLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s27ExpressibleByBooleanLiteralP",
+            "mangledName": "$ss27ExpressibleByBooleanLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByIntegerLiteral",
+            "printedName": "ExpressibleByIntegerLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "IntegerLiteralType",
+                "printedName": "IntegerLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s27ExpressibleByIntegerLiteralP",
+            "mangledName": "$ss27ExpressibleByIntegerLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByFloatLiteral",
+            "printedName": "ExpressibleByFloatLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "FloatLiteralType",
+                "printedName": "FloatLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s25ExpressibleByFloatLiteralP",
+            "mangledName": "$ss25ExpressibleByFloatLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringLiteral",
+            "printedName": "ExpressibleByStringLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringLiteralType",
+                "printedName": "StringLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s26ExpressibleByStringLiteralP",
+            "mangledName": "$ss26ExpressibleByStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "printedName": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ExtendedGraphemeClusterLiteralType",
+                "printedName": "ExtendedGraphemeClusterLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s43ExpressibleByExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss43ExpressibleByExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByUnicodeScalarLiteral",
+            "printedName": "ExpressibleByUnicodeScalarLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UnicodeScalarLiteralType",
+                "printedName": "UnicodeScalarLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s33ExpressibleByUnicodeScalarLiteralP",
+            "mangledName": "$ss33ExpressibleByUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "Item",
         "printedName": "Item",
         "children": [
@@ -991,12 +1813,12 @@
             "usr": "s:24RawStructuredFieldValues4ItemV04bareE0AA04BareE0Ovp",
             "mangledName": "$s24RawStructuredFieldValues4ItemV04bareE0AA04BareE0Ovp",
             "moduleName": "RawStructuredFieldValues",
+            "deprecated": true,
             "declAttributes": [
-              "HasStorage",
               "AccessControl",
+              "Available",
               "RawDocComment"
             ],
-            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -1014,7 +1836,6 @@
                 "usr": "s:24RawStructuredFieldValues4ItemV04bareE0AA04BareE0Ovg",
                 "mangledName": "$s24RawStructuredFieldValues4ItemV04bareE0AA04BareE0Ovg",
                 "moduleName": "RawStructuredFieldValues",
-                "implicit": true,
                 "accessorKind": "get"
               },
               {
@@ -1038,7 +1859,6 @@
                 "usr": "s:24RawStructuredFieldValues4ItemV04bareE0AA04BareE0Ovs",
                 "mangledName": "$s24RawStructuredFieldValues4ItemV04bareE0AA04BareE0Ovs",
                 "moduleName": "RawStructuredFieldValues",
-                "implicit": true,
                 "accessorKind": "set"
               },
               {
@@ -1056,7 +1876,11 @@
                 "usr": "s:24RawStructuredFieldValues4ItemV04bareE0AA04BareE0OvM",
                 "mangledName": "$s24RawStructuredFieldValues4ItemV04bareE0AA04BareE0OvM",
                 "moduleName": "RawStructuredFieldValues",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -1091,12 +1915,12 @@
             "usr": "s:24RawStructuredFieldValues4ItemV10parametersAA10OrderedMapVySSAA04BareE0OGvp",
             "mangledName": "$s24RawStructuredFieldValues4ItemV10parametersAA10OrderedMapVySSAA04BareE0OGvp",
             "moduleName": "RawStructuredFieldValues",
+            "deprecated": true,
             "declAttributes": [
-              "HasStorage",
               "AccessControl",
+              "Available",
               "RawDocComment"
             ],
-            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -1128,7 +1952,6 @@
                 "usr": "s:24RawStructuredFieldValues4ItemV10parametersAA10OrderedMapVySSAA04BareE0OGvg",
                 "mangledName": "$s24RawStructuredFieldValues4ItemV10parametersAA10OrderedMapVySSAA04BareE0OGvg",
                 "moduleName": "RawStructuredFieldValues",
-                "implicit": true,
                 "accessorKind": "get"
               },
               {
@@ -1166,7 +1989,6 @@
                 "usr": "s:24RawStructuredFieldValues4ItemV10parametersAA10OrderedMapVySSAA04BareE0OGvs",
                 "mangledName": "$s24RawStructuredFieldValues4ItemV10parametersAA10OrderedMapVySSAA04BareE0OGvs",
                 "moduleName": "RawStructuredFieldValues",
-                "implicit": true,
                 "accessorKind": "set"
               },
               {
@@ -1183,6 +2005,224 @@
                 "declKind": "Accessor",
                 "usr": "s:24RawStructuredFieldValues4ItemV10parametersAA10OrderedMapVySSAA04BareE0OGvM",
                 "mangledName": "$s24RawStructuredFieldValues4ItemV10parametersAA10OrderedMapVySSAA04BareE0OGvM",
+                "moduleName": "RawStructuredFieldValues",
+                "deprecated": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rfc9651BareItem",
+            "printedName": "rfc9651BareItem",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RFC9651BareItem",
+                "printedName": "RawStructuredFieldValues.RFC9651BareItem",
+                "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24RawStructuredFieldValues4ItemV011rfc9651BareE0AA07RFC9651gE0Ovp",
+            "mangledName": "$s24RawStructuredFieldValues4ItemV011rfc9651BareE0AA07RFC9651gE0Ovp",
+            "moduleName": "RawStructuredFieldValues",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RFC9651BareItem",
+                    "printedName": "RawStructuredFieldValues.RFC9651BareItem",
+                    "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24RawStructuredFieldValues4ItemV011rfc9651BareE0AA07RFC9651gE0Ovg",
+                "mangledName": "$s24RawStructuredFieldValues4ItemV011rfc9651BareE0AA07RFC9651gE0Ovg",
+                "moduleName": "RawStructuredFieldValues",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RFC9651BareItem",
+                    "printedName": "RawStructuredFieldValues.RFC9651BareItem",
+                    "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24RawStructuredFieldValues4ItemV011rfc9651BareE0AA07RFC9651gE0Ovs",
+                "mangledName": "$s24RawStructuredFieldValues4ItemV011rfc9651BareE0AA07RFC9651gE0Ovs",
+                "moduleName": "RawStructuredFieldValues",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24RawStructuredFieldValues4ItemV011rfc9651BareE0AA07RFC9651gE0OvM",
+                "mangledName": "$s24RawStructuredFieldValues4ItemV011rfc9651BareE0AA07RFC9651gE0OvM",
+                "moduleName": "RawStructuredFieldValues",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rfc9651Parameters",
+            "printedName": "rfc9651Parameters",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OrderedMap",
+                "printedName": "RawStructuredFieldValues.OrderedMap<Swift.String, RawStructuredFieldValues.RFC9651BareItem>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RFC9651BareItem",
+                    "printedName": "RawStructuredFieldValues.RFC9651BareItem",
+                    "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO"
+                  }
+                ],
+                "usr": "s:24RawStructuredFieldValues10OrderedMapV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24RawStructuredFieldValues4ItemV17rfc9651ParametersAA10OrderedMapVySSAA011RFC9651BareE0OGvp",
+            "mangledName": "$s24RawStructuredFieldValues4ItemV17rfc9651ParametersAA10OrderedMapVySSAA011RFC9651BareE0OGvp",
+            "moduleName": "RawStructuredFieldValues",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OrderedMap",
+                    "printedName": "RawStructuredFieldValues.OrderedMap<Swift.String, RawStructuredFieldValues.RFC9651BareItem>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RFC9651BareItem",
+                        "printedName": "RawStructuredFieldValues.RFC9651BareItem",
+                        "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO"
+                      }
+                    ],
+                    "usr": "s:24RawStructuredFieldValues10OrderedMapV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24RawStructuredFieldValues4ItemV17rfc9651ParametersAA10OrderedMapVySSAA011RFC9651BareE0OGvg",
+                "mangledName": "$s24RawStructuredFieldValues4ItemV17rfc9651ParametersAA10OrderedMapVySSAA011RFC9651BareE0OGvg",
+                "moduleName": "RawStructuredFieldValues",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OrderedMap",
+                    "printedName": "RawStructuredFieldValues.OrderedMap<Swift.String, RawStructuredFieldValues.RFC9651BareItem>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RFC9651BareItem",
+                        "printedName": "RawStructuredFieldValues.RFC9651BareItem",
+                        "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO"
+                      }
+                    ],
+                    "usr": "s:24RawStructuredFieldValues10OrderedMapV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24RawStructuredFieldValues4ItemV17rfc9651ParametersAA10OrderedMapVySSAA011RFC9651BareE0OGvs",
+                "mangledName": "$s24RawStructuredFieldValues4ItemV17rfc9651ParametersAA10OrderedMapVySSAA011RFC9651BareE0OGvs",
+                "moduleName": "RawStructuredFieldValues",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24RawStructuredFieldValues4ItemV17rfc9651ParametersAA10OrderedMapVySSAA011RFC9651BareE0OGvM",
+                "mangledName": "$s24RawStructuredFieldValues4ItemV17rfc9651ParametersAA10OrderedMapVySSAA011RFC9651BareE0OGvM",
                 "moduleName": "RawStructuredFieldValues",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1230,6 +2270,55 @@
             "declKind": "Constructor",
             "usr": "s:24RawStructuredFieldValues4ItemV04bareE010parametersAcA04BareE0O_AA10OrderedMapVySSAGGtcfc",
             "mangledName": "$s24RawStructuredFieldValues4ItemV04bareE010parametersAcA04BareE0O_AA10OrderedMapVySSAGGtcfc",
+            "moduleName": "RawStructuredFieldValues",
+            "deprecated": true,
+            "declAttributes": [
+              "AccessControl",
+              "Available"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(bareItem:parameters:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Item",
+                "printedName": "RawStructuredFieldValues.Item",
+                "usr": "s:24RawStructuredFieldValues4ItemV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RFC9651BareItem",
+                "printedName": "RawStructuredFieldValues.RFC9651BareItem",
+                "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OrderedMap",
+                "printedName": "RawStructuredFieldValues.OrderedMap<Swift.String, RawStructuredFieldValues.RFC9651BareItem>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RFC9651BareItem",
+                    "printedName": "RawStructuredFieldValues.RFC9651BareItem",
+                    "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO"
+                  }
+                ],
+                "usr": "s:24RawStructuredFieldValues10OrderedMapV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24RawStructuredFieldValues4ItemV04bareE010parametersAcA011RFC9651BareE0O_AA10OrderedMapVySSAGGtcfc",
+            "mangledName": "$s24RawStructuredFieldValues4ItemV04bareE010parametersAcA011RFC9651BareE0O_AA10OrderedMapVySSAGGtcfc",
             "moduleName": "RawStructuredFieldValues",
             "declAttributes": [
               "AccessControl"
@@ -2621,12 +3710,12 @@
             "usr": "s:24RawStructuredFieldValues9InnerListV10parametersAA10OrderedMapVySSAA8BareItemOGvp",
             "mangledName": "$s24RawStructuredFieldValues9InnerListV10parametersAA10OrderedMapVySSAA8BareItemOGvp",
             "moduleName": "RawStructuredFieldValues",
+            "deprecated": true,
             "declAttributes": [
-              "HasStorage",
               "AccessControl",
+              "Available",
               "RawDocComment"
             ],
-            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -2658,7 +3747,6 @@
                 "usr": "s:24RawStructuredFieldValues9InnerListV10parametersAA10OrderedMapVySSAA8BareItemOGvg",
                 "mangledName": "$s24RawStructuredFieldValues9InnerListV10parametersAA10OrderedMapVySSAA8BareItemOGvg",
                 "moduleName": "RawStructuredFieldValues",
-                "implicit": true,
                 "accessorKind": "get"
               },
               {
@@ -2696,7 +3784,6 @@
                 "usr": "s:24RawStructuredFieldValues9InnerListV10parametersAA10OrderedMapVySSAA8BareItemOGvs",
                 "mangledName": "$s24RawStructuredFieldValues9InnerListV10parametersAA10OrderedMapVySSAA8BareItemOGvs",
                 "moduleName": "RawStructuredFieldValues",
-                "implicit": true,
                 "accessorKind": "set"
               },
               {
@@ -2713,6 +3800,138 @@
                 "declKind": "Accessor",
                 "usr": "s:24RawStructuredFieldValues9InnerListV10parametersAA10OrderedMapVySSAA8BareItemOGvM",
                 "mangledName": "$s24RawStructuredFieldValues9InnerListV10parametersAA10OrderedMapVySSAA8BareItemOGvM",
+                "moduleName": "RawStructuredFieldValues",
+                "deprecated": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rfc9651Parameters",
+            "printedName": "rfc9651Parameters",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OrderedMap",
+                "printedName": "RawStructuredFieldValues.OrderedMap<Swift.String, RawStructuredFieldValues.RFC9651BareItem>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RFC9651BareItem",
+                    "printedName": "RawStructuredFieldValues.RFC9651BareItem",
+                    "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO"
+                  }
+                ],
+                "usr": "s:24RawStructuredFieldValues10OrderedMapV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24RawStructuredFieldValues9InnerListV17rfc9651ParametersAA10OrderedMapVySSAA15RFC9651BareItemOGvp",
+            "mangledName": "$s24RawStructuredFieldValues9InnerListV17rfc9651ParametersAA10OrderedMapVySSAA15RFC9651BareItemOGvp",
+            "moduleName": "RawStructuredFieldValues",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OrderedMap",
+                    "printedName": "RawStructuredFieldValues.OrderedMap<Swift.String, RawStructuredFieldValues.RFC9651BareItem>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RFC9651BareItem",
+                        "printedName": "RawStructuredFieldValues.RFC9651BareItem",
+                        "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO"
+                      }
+                    ],
+                    "usr": "s:24RawStructuredFieldValues10OrderedMapV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24RawStructuredFieldValues9InnerListV17rfc9651ParametersAA10OrderedMapVySSAA15RFC9651BareItemOGvg",
+                "mangledName": "$s24RawStructuredFieldValues9InnerListV17rfc9651ParametersAA10OrderedMapVySSAA15RFC9651BareItemOGvg",
+                "moduleName": "RawStructuredFieldValues",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OrderedMap",
+                    "printedName": "RawStructuredFieldValues.OrderedMap<Swift.String, RawStructuredFieldValues.RFC9651BareItem>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RFC9651BareItem",
+                        "printedName": "RawStructuredFieldValues.RFC9651BareItem",
+                        "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO"
+                      }
+                    ],
+                    "usr": "s:24RawStructuredFieldValues10OrderedMapV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24RawStructuredFieldValues9InnerListV17rfc9651ParametersAA10OrderedMapVySSAA15RFC9651BareItemOGvs",
+                "mangledName": "$s24RawStructuredFieldValues9InnerListV17rfc9651ParametersAA10OrderedMapVySSAA15RFC9651BareItemOGvs",
+                "moduleName": "RawStructuredFieldValues",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24RawStructuredFieldValues9InnerListV17rfc9651ParametersAA10OrderedMapVySSAA15RFC9651BareItemOGvM",
+                "mangledName": "$s24RawStructuredFieldValues9InnerListV17rfc9651ParametersAA10OrderedMapVySSAA15RFC9651BareItemOGvM",
                 "moduleName": "RawStructuredFieldValues",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2760,6 +3979,55 @@
             "declKind": "Constructor",
             "usr": "s:24RawStructuredFieldValues9InnerListV04bareeF010parametersAcA04BareeF0V_AA10OrderedMapVySSAA0I4ItemOGtcfc",
             "mangledName": "$s24RawStructuredFieldValues9InnerListV04bareeF010parametersAcA04BareeF0V_AA10OrderedMapVySSAA0I4ItemOGtcfc",
+            "moduleName": "RawStructuredFieldValues",
+            "deprecated": true,
+            "declAttributes": [
+              "AccessControl",
+              "Available"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(bareInnerList:parameters:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InnerList",
+                "printedName": "RawStructuredFieldValues.InnerList",
+                "usr": "s:24RawStructuredFieldValues9InnerListV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BareInnerList",
+                "printedName": "RawStructuredFieldValues.BareInnerList",
+                "usr": "s:24RawStructuredFieldValues13BareInnerListV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OrderedMap",
+                "printedName": "RawStructuredFieldValues.OrderedMap<Swift.String, RawStructuredFieldValues.RFC9651BareItem>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RFC9651BareItem",
+                    "printedName": "RawStructuredFieldValues.RFC9651BareItem",
+                    "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO"
+                  }
+                ],
+                "usr": "s:24RawStructuredFieldValues10OrderedMapV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24RawStructuredFieldValues9InnerListV04bareeF010parametersAcA04BareeF0V_AA10OrderedMapVySSAA07RFC9651I4ItemOGtcfc",
+            "mangledName": "$s24RawStructuredFieldValues9InnerListV04bareeF010parametersAcA04BareeF0V_AA10OrderedMapVySSAA07RFC9651I4ItemOGtcfc",
             "moduleName": "RawStructuredFieldValues",
             "declAttributes": [
               "AccessControl"
@@ -3347,6 +4615,104 @@
                 "declKind": "Accessor",
                 "usr": "s:24RawStructuredFieldValues0B11HeaderErrorV12invalidTokenACvgZ",
                 "mangledName": "$s24RawStructuredFieldValues0B11HeaderErrorV12invalidTokenACvgZ",
+                "moduleName": "RawStructuredFieldValues",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "invalidDate",
+            "printedName": "invalidDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StructuredHeaderError",
+                "printedName": "RawStructuredFieldValues.StructuredHeaderError",
+                "usr": "s:24RawStructuredFieldValues0B11HeaderErrorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24RawStructuredFieldValues0B11HeaderErrorV11invalidDateACvpZ",
+            "mangledName": "$s24RawStructuredFieldValues0B11HeaderErrorV11invalidDateACvpZ",
+            "moduleName": "RawStructuredFieldValues",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StructuredHeaderError",
+                    "printedName": "RawStructuredFieldValues.StructuredHeaderError",
+                    "usr": "s:24RawStructuredFieldValues0B11HeaderErrorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24RawStructuredFieldValues0B11HeaderErrorV11invalidDateACvgZ",
+                "mangledName": "$s24RawStructuredFieldValues0B11HeaderErrorV11invalidDateACvgZ",
+                "moduleName": "RawStructuredFieldValues",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "invalidDisplayString",
+            "printedName": "invalidDisplayString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StructuredHeaderError",
+                "printedName": "RawStructuredFieldValues.StructuredHeaderError",
+                "usr": "s:24RawStructuredFieldValues0B11HeaderErrorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24RawStructuredFieldValues0B11HeaderErrorV20invalidDisplayStringACvpZ",
+            "mangledName": "$s24RawStructuredFieldValues0B11HeaderErrorV20invalidDisplayStringACvpZ",
+            "moduleName": "RawStructuredFieldValues",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StructuredHeaderError",
+                    "printedName": "RawStructuredFieldValues.StructuredHeaderError",
+                    "usr": "s:24RawStructuredFieldValues0B11HeaderErrorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24RawStructuredFieldValues0B11HeaderErrorV20invalidDisplayStringACvgZ",
+                "mangledName": "$s24RawStructuredFieldValues0B11HeaderErrorV20invalidDisplayStringACvgZ",
                 "moduleName": "RawStructuredFieldValues",
                 "static": true,
                 "implicit": true,
@@ -7373,408 +8739,527 @@
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/ASCII.swift",
       "kind": "StringLiteral",
-      "offset": 901,
+      "offset": 899,
       "length": 4,
       "value": "\"\"\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/ASCII.swift",
       "kind": "StringLiteral",
-      "offset": 937,
+      "offset": 935,
       "length": 3,
       "value": "\":\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/ASCII.swift",
       "kind": "StringLiteral",
-      "offset": 976,
+      "offset": 974,
       "length": 3,
       "value": "\";\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/ASCII.swift",
       "kind": "StringLiteral",
-      "offset": 1015,
+      "offset": 1013,
       "length": 4,
       "value": "\"\\\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/ASCII.swift",
       "kind": "StringLiteral",
-      "offset": 1058,
+      "offset": 1056,
       "length": 3,
       "value": "\"?\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/ASCII.swift",
       "kind": "StringLiteral",
-      "offset": 1103,
+      "offset": 1101,
       "length": 3,
       "value": "\"!\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/ASCII.swift",
       "kind": "StringLiteral",
-      "offset": 1143,
+      "offset": 1133,
+      "length": 3,
+      "value": "\"@\""
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/ASCII.swift",
+      "kind": "StringLiteral",
+      "offset": 1173,
       "length": 3,
       "value": "\"#\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/ASCII.swift",
       "kind": "StringLiteral",
-      "offset": 1179,
+      "offset": 1209,
       "length": 3,
       "value": "\"$\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/ASCII.swift",
       "kind": "StringLiteral",
-      "offset": 1216,
+      "offset": 1246,
       "length": 3,
       "value": "\"%\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/ASCII.swift",
       "kind": "StringLiteral",
-      "offset": 1255,
+      "offset": 1285,
       "length": 3,
       "value": "\"&\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/ASCII.swift",
       "kind": "StringLiteral",
-      "offset": 1291,
+      "offset": 1321,
       "length": 3,
       "value": "\"'\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/ASCII.swift",
       "kind": "StringLiteral",
-      "offset": 1326,
+      "offset": 1356,
       "length": 3,
       "value": "\"^\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/ASCII.swift",
       "kind": "StringLiteral",
-      "offset": 1364,
+      "offset": 1394,
       "length": 3,
       "value": "\"`\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/ASCII.swift",
       "kind": "StringLiteral",
-      "offset": 1398,
+      "offset": 1428,
       "length": 3,
       "value": "\"|\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/ASCII.swift",
       "kind": "StringLiteral",
-      "offset": 1433,
+      "offset": 1463,
       "length": 3,
       "value": "\"~\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/ASCII.swift",
       "kind": "StringLiteral",
-      "offset": 1471,
+      "offset": 1501,
       "length": 3,
       "value": "\"*\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/ASCII.swift",
       "kind": "StringLiteral",
-      "offset": 1506,
+      "offset": 1536,
       "length": 3,
       "value": "\"=\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/ASCII.swift",
       "kind": "StringLiteral",
-      "offset": 1540,
+      "offset": 1570,
       "length": 3,
       "value": "\"+\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/ASCII.swift",
       "kind": "StringLiteral",
-      "offset": 1575,
+      "offset": 1605,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/ASCII.swift",
       "kind": "StringLiteral",
-      "offset": 1611,
+      "offset": 1641,
       "length": 3,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/ASCII.swift",
       "kind": "StringLiteral",
-      "offset": 1646,
+      "offset": 1676,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/ASCII.swift",
       "kind": "StringLiteral",
-      "offset": 1684,
+      "offset": 1714,
       "length": 3,
       "value": "\"A\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/ASCII.swift",
       "kind": "StringLiteral",
-      "offset": 1722,
+      "offset": 1752,
+      "length": 3,
+      "value": "\"F\""
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/ASCII.swift",
+      "kind": "StringLiteral",
+      "offset": 1790,
       "length": 3,
       "value": "\"Z\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/ASCII.swift",
       "kind": "StringLiteral",
-      "offset": 1758,
+      "offset": 1826,
       "length": 3,
       "value": "\"a\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/ASCII.swift",
       "kind": "StringLiteral",
-      "offset": 1794,
+      "offset": 1862,
+      "length": 3,
+      "value": "\"f\""
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/ASCII.swift",
+      "kind": "StringLiteral",
+      "offset": 1898,
       "length": 3,
       "value": "\"z\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/ComponentTypes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6543,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/ComponentTypes.swift",
       "kind": "Array",
-      "offset": 3166,
+      "offset": 7150,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/ComponentTypes.swift",
       "kind": "BooleanLiteral",
-      "offset": 5616,
+      "offset": 10289,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/ComponentTypes.swift",
       "kind": "BooleanLiteral",
-      "offset": 6572,
+      "offset": 11256,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/ComponentTypes.swift",
       "kind": "BooleanLiteral",
-      "offset": 6618,
+      "offset": 11302,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 2536,
+      "offset": 2674,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 3415,
+      "offset": 3553,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 4187,
+      "offset": 4325,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "Array",
-      "offset": 4406,
+      "offset": 4544,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 4458,
+      "offset": 4596,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 5031,
+      "offset": 5169,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 5383,
+      "offset": 5521,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 5679,
+      "offset": 5817,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 6189,
+      "offset": 6327,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 6860,
+      "offset": 6998,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8377,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 8730,
+      "offset": 9055,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 8867,
+      "offset": 9193,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 9658,
+      "offset": 10151,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 10350,
+      "offset": 10994,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11300,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 10499,
+      "offset": 11335,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 11091,
+      "offset": 11929,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 11472,
+      "offset": 12461,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 11499,
+      "offset": 12488,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 13921,
+      "offset": 14917,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 14591,
+      "offset": 15587,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 14768,
+      "offset": 15764,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 14777,
+      "offset": 15771,
       "length": 4,
       "value": "0x1F"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 14783,
+      "offset": 15777,
       "length": 4,
       "value": "0x7F"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 15654,
+      "offset": 16646,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 17409,
+      "offset": 18415,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 17504,
+      "offset": 18510,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 19857,
+      "offset": 20588,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21137,
+      "length": 4,
+      "value": "0x00"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21144,
+      "length": 4,
+      "value": "0x1F"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21150,
+      "length": 4,
+      "value": "0x7F"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21302,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21463,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21536,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23166,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24193,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 20572,
+      "offset": 24908,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 20621,
+      "offset": 24957,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29663,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 30212,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 30556,
+      "length": 2,
+      "value": "10"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldSerializer.swift",
@@ -7786,121 +9271,177 @@
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldSerializer.swift",
       "kind": "IntegerLiteral",
-      "offset": 568,
+      "offset": 566,
       "length": 19,
       "value": "999999999999999"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldSerializer.swift",
       "kind": "Array",
-      "offset": 821,
+      "offset": 819,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldSerializer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1279,
+      "offset": 1277,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldSerializer.swift",
       "kind": "Array",
-      "offset": 1307,
+      "offset": 1305,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldSerializer.swift",
       "kind": "BooleanLiteral",
-      "offset": 1386,
+      "offset": 1384,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldSerializer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1839,
+      "offset": 1837,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldSerializer.swift",
       "kind": "Array",
-      "offset": 1867,
+      "offset": 1865,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldSerializer.swift",
       "kind": "BooleanLiteral",
-      "offset": 1946,
+      "offset": 1944,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldSerializer.swift",
       "kind": "BooleanLiteral",
-      "offset": 2411,
+      "offset": 2409,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldSerializer.swift",
       "kind": "IntegerLiteral",
-      "offset": 3319,
+      "offset": 3331,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldSerializer.swift",
       "kind": "IntegerLiteral",
-      "offset": 5849,
+      "offset": 5896,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldSerializer.swift",
       "kind": "IntegerLiteral",
-      "offset": 6068,
+      "offset": 6115,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldSerializer.swift",
       "kind": "IntegerLiteral",
-      "offset": 6077,
+      "offset": 6122,
       "length": 4,
       "value": "0x1F"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldSerializer.swift",
       "kind": "IntegerLiteral",
-      "offset": 6105,
+      "offset": 6150,
       "length": 4,
       "value": "0x7F"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldSerializer.swift",
       "kind": "IntegerLiteral",
-      "offset": 6118,
+      "offset": 6163,
       "length": 4,
       "value": "0x80"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldSerializer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7534,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldSerializer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7861,
+      "length": 4,
+      "value": "0x00"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldSerializer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7868,
+      "length": 4,
+      "value": "0x1F"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldSerializer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7913,
+      "length": 4,
+      "value": "0x7F"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldSerializer.swift",
       "kind": "BooleanLiteral",
-      "offset": 7759,
+      "offset": 8943,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldSerializer.swift",
       "kind": "BooleanLiteral",
-      "offset": 7808,
+      "offset": 8992,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldSerializer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9319,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldSerializer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9363,
+      "length": 4,
+      "value": "0x0F"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldSerializer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9553,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldSerializer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9579,
+      "length": 2,
+      "value": "10"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/OrderedMap.swift",
@@ -7912,56 +9453,56 @@
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/OrderedMap.swift",
       "kind": "IntegerLiteral",
-      "offset": 3897,
+      "offset": 4191,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/OrderedMap.swift",
       "kind": "IntegerLiteral",
-      "offset": 3989,
+      "offset": 4283,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/OrderedMap.swift",
       "kind": "StringLiteral",
-      "offset": 4819,
+      "offset": 5113,
       "length": 24,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/OrderedMap.swift",
       "kind": "StringLiteral",
-      "offset": 4829,
+      "offset": 5123,
       "length": 1,
       "value": "\": \""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/OrderedMap.swift",
       "kind": "StringLiteral",
-      "offset": 4842,
+      "offset": 5136,
       "length": 23,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/OrderedMap.swift",
       "kind": "StringLiteral",
-      "offset": 4864,
+      "offset": 5158,
       "length": 4,
       "value": "\", \""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/OrderedMap.swift",
       "kind": "StringLiteral",
-      "offset": 4885,
+      "offset": 5179,
       "length": 28,
       "value": "\"[\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/OrderedMap.swift",
       "kind": "StringLiteral",
-      "offset": 4911,
+      "offset": 5205,
       "length": 1,
       "value": "\"]\""
     },
@@ -8115,238 +9656,238 @@
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 4503,
+      "offset": 4502,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 4534,
+      "offset": 4533,
       "length": 17,
       "value": "9999999999999"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 4566,
+      "offset": 4564,
       "length": 2,
       "value": "-2"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 4597,
+      "offset": 4595,
       "length": 18,
       "value": "99999999999999"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 4630,
+      "offset": 4627,
       "length": 2,
       "value": "-3"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 4661,
+      "offset": 4658,
       "length": 19,
       "value": "999999999999999"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "StringLiteral",
-      "offset": 5031,
+      "offset": 5045,
       "length": 88,
       "value": "\"Invalid value for structured header decimal: mantissa \""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "StringLiteral",
-      "offset": 5097,
+      "offset": 5111,
       "length": 8,
       "value": "\" exponent \""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "StringLiteral",
-      "offset": 5118,
-      "length": 2,
+      "offset": 5132,
+      "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 5969,
+      "offset": 5996,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 6002,
+      "offset": 6029,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 6034,
+      "offset": 6061,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 6050,
+      "offset": 6077,
       "length": 2,
       "value": "-3"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 6076,
+      "offset": 6103,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 6082,
+      "offset": 6109,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 6115,
+      "offset": 6142,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 6149,
+      "offset": 6176,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 6188,
+      "offset": 6215,
       "length": 2,
       "value": "-2"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 6224,
+      "offset": 6251,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 6230,
+      "offset": 6257,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 6268,
+      "offset": 6295,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 6306,
+      "offset": 6333,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 6692,
+      "offset": 6719,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 6850,
+      "offset": 6877,
       "length": 2,
       "value": "-3"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "StringLiteral",
-      "offset": 7080,
+      "offset": 7107,
       "length": 55,
       "value": "\"Invalid value for structured header decimal: \""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "StringLiteral",
-      "offset": 7134,
+      "offset": 7161,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 7437,
+      "offset": 7464,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 7855,
+      "offset": 7882,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "StringLiteral",
-      "offset": 7898,
+      "offset": 7925,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "StringLiteral",
-      "offset": 8117,
+      "offset": 8144,
       "length": 3,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "StringLiteral",
-      "offset": 8389,
+      "offset": 8416,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 8455,
+      "offset": 8482,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "StringLiteral",
-      "offset": 8485,
+      "offset": 8512,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 8748,
+      "offset": 8775,
       "length": 2,
       "value": "10"
     }

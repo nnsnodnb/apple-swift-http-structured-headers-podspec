@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name RawStructuredFieldValues
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature StrictConcurrency=complete -enable-upcoming-feature MemberImportVisibility -enable-bare-slash-regex -module-name RawStructuredFieldValues
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Darwin
 import Swift
@@ -18,6 +18,7 @@ extension RawStructuredFieldValues.ItemOrInnerList : Swift.Hashable {
     get
   }
 }
+@available(*, deprecated, renamed: "RFC9651BareItem")
 public enum BareItem : Swift.Sendable {
   case bool(Swift.Bool)
   case integer(Swift.Int)
@@ -26,24 +27,35 @@ public enum BareItem : Swift.Sendable {
   case undecodedByteSequence(Swift.String)
   case token(Swift.String)
 }
+@available(*, deprecated)
 extension RawStructuredFieldValues.BareItem : Swift.ExpressibleByBooleanLiteral {
   public init(booleanLiteral value: Swift.Bool)
+  @available(*, deprecated, renamed: "RFC9651BareItem")
   public typealias BooleanLiteralType = Swift.Bool
 }
+@available(*, deprecated)
 extension RawStructuredFieldValues.BareItem : Swift.ExpressibleByIntegerLiteral {
   public init(integerLiteral value: Swift.Int)
+  @available(*, deprecated, renamed: "RFC9651BareItem")
   public typealias IntegerLiteralType = Swift.Int
 }
+@available(*, deprecated)
 extension RawStructuredFieldValues.BareItem : Swift.ExpressibleByFloatLiteral {
   public init(floatLiteral value: Swift.Float64)
+  @available(*, deprecated, renamed: "RFC9651BareItem")
   public typealias FloatLiteralType = Swift.Float64
 }
+@available(*, deprecated)
 extension RawStructuredFieldValues.BareItem : Swift.ExpressibleByStringLiteral {
   public init(stringLiteral value: Swift.StringLiteralType)
+  @available(*, deprecated, renamed: "RFC9651BareItem")
   public typealias ExtendedGraphemeClusterLiteralType = Swift.StringLiteralType
+  @available(*, deprecated, renamed: "RFC9651BareItem")
   public typealias StringLiteralType = Swift.StringLiteralType
+  @available(*, deprecated, renamed: "RFC9651BareItem")
   public typealias UnicodeScalarLiteralType = Swift.StringLiteralType
 }
+@available(*, deprecated)
 extension RawStructuredFieldValues.BareItem : Swift.Hashable {
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: RawStructuredFieldValues.BareItem, b: RawStructuredFieldValues.BareItem) -> Swift.Bool
@@ -51,10 +63,57 @@ extension RawStructuredFieldValues.BareItem : Swift.Hashable {
     get
   }
 }
+public enum RFC9651BareItem : Swift.Sendable {
+  case bool(Swift.Bool)
+  case integer(Swift.Int64)
+  case decimal(RawStructuredFieldValues.PseudoDecimal)
+  case string(Swift.String)
+  case undecodedByteSequence(Swift.String)
+  case token(Swift.String)
+  case date(Swift.Int64)
+  case displayString(Swift.String)
+}
+extension RawStructuredFieldValues.RFC9651BareItem : Swift.ExpressibleByBooleanLiteral {
+  public init(booleanLiteral value: Swift.Bool)
+  public typealias BooleanLiteralType = Swift.Bool
+}
+extension RawStructuredFieldValues.RFC9651BareItem : Swift.ExpressibleByIntegerLiteral {
+  public init(integerLiteral value: Swift.Int64)
+  public typealias IntegerLiteralType = Swift.Int64
+}
+extension RawStructuredFieldValues.RFC9651BareItem : Swift.ExpressibleByFloatLiteral {
+  public init(floatLiteral value: Swift.Float64)
+  public typealias FloatLiteralType = Swift.Float64
+}
+extension RawStructuredFieldValues.RFC9651BareItem : Swift.ExpressibleByStringLiteral {
+  public init(stringLiteral value: Swift.StringLiteralType)
+  public typealias ExtendedGraphemeClusterLiteralType = Swift.StringLiteralType
+  public typealias StringLiteralType = Swift.StringLiteralType
+  public typealias UnicodeScalarLiteralType = Swift.StringLiteralType
+}
+extension RawStructuredFieldValues.RFC9651BareItem : Swift.Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: RawStructuredFieldValues.RFC9651BareItem, b: RawStructuredFieldValues.RFC9651BareItem) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public struct Item : Swift.Sendable {
-  public var bareItem: RawStructuredFieldValues.BareItem
-  public var parameters: RawStructuredFieldValues.OrderedMap<Swift.String, RawStructuredFieldValues.BareItem>
+  @available(*, deprecated, renamed: "rfc9651BareItem")
+  public var bareItem: RawStructuredFieldValues.BareItem {
+    get
+    set
+  }
+  @available(*, deprecated, renamed: "rfc9651Parameters")
+  public var parameters: RawStructuredFieldValues.OrderedMap<Swift.String, RawStructuredFieldValues.BareItem> {
+    get
+    set
+  }
+  public var rfc9651BareItem: RawStructuredFieldValues.RFC9651BareItem
+  public var rfc9651Parameters: RawStructuredFieldValues.OrderedMap<Swift.String, RawStructuredFieldValues.RFC9651BareItem>
+  @available(*, deprecated)
   public init(bareItem: RawStructuredFieldValues.BareItem, parameters: RawStructuredFieldValues.OrderedMap<Swift.String, RawStructuredFieldValues.BareItem>)
+  public init(bareItem: RawStructuredFieldValues.RFC9651BareItem, parameters: RawStructuredFieldValues.OrderedMap<Swift.String, RawStructuredFieldValues.RFC9651BareItem>)
 }
 extension RawStructuredFieldValues.Item : Swift.Hashable {
   public func hash(into hasher: inout Swift.Hasher)
@@ -112,8 +171,15 @@ extension RawStructuredFieldValues.BareInnerList.Index : Swift.Comparable {
 }
 public struct InnerList : Swift.Hashable, Swift.Sendable {
   public var bareInnerList: RawStructuredFieldValues.BareInnerList
-  public var parameters: RawStructuredFieldValues.OrderedMap<Swift.String, RawStructuredFieldValues.BareItem>
+  @available(*, deprecated, renamed: "rfc9651Parameters")
+  public var parameters: RawStructuredFieldValues.OrderedMap<Swift.String, RawStructuredFieldValues.BareItem> {
+    get
+    set
+  }
+  public var rfc9651Parameters: RawStructuredFieldValues.OrderedMap<Swift.String, RawStructuredFieldValues.RFC9651BareItem>
+  @available(*, deprecated)
   public init(bareInnerList: RawStructuredFieldValues.BareInnerList, parameters: RawStructuredFieldValues.OrderedMap<Swift.String, RawStructuredFieldValues.BareItem>)
+  public init(bareInnerList: RawStructuredFieldValues.BareInnerList, parameters: RawStructuredFieldValues.OrderedMap<Swift.String, RawStructuredFieldValues.RFC9651BareItem>)
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: RawStructuredFieldValues.InnerList, b: RawStructuredFieldValues.InnerList) -> Swift.Bool
   public var hashValue: Swift.Int {
@@ -137,6 +203,8 @@ extension RawStructuredFieldValues.StructuredHeaderError {
   public static let invalidByteSequence: RawStructuredFieldValues.StructuredHeaderError
   public static let invalidBoolean: RawStructuredFieldValues.StructuredHeaderError
   public static let invalidToken: RawStructuredFieldValues.StructuredHeaderError
+  public static let invalidDate: RawStructuredFieldValues.StructuredHeaderError
+  public static let invalidDisplayString: RawStructuredFieldValues.StructuredHeaderError
   public static let invalidList: RawStructuredFieldValues.StructuredHeaderError
   public static let invalidDictionary: RawStructuredFieldValues.StructuredHeaderError
   public static let missingKey: RawStructuredFieldValues.StructuredHeaderError
@@ -162,7 +230,9 @@ public struct StructuredFieldValueParser<BaseData> where BaseData : Swift.Random
 extension RawStructuredFieldValues.StructuredFieldValueParser : Swift.Sendable where BaseData : Swift.Sendable, BaseData.SubSequence : Swift.Sendable {
 }
 extension RawStructuredFieldValues.StructuredFieldValueParser {
+  @available(*, deprecated, renamed: "RFC9651BareItem")
   public typealias BareItem = RawStructuredFieldValues.BareItem
+  public typealias RFC9651BareItem = RawStructuredFieldValues.RFC9651BareItem
   public typealias Item = RawStructuredFieldValues.Item
   public typealias BareInnerList = RawStructuredFieldValues.BareInnerList
   public typealias InnerList = RawStructuredFieldValues.InnerList

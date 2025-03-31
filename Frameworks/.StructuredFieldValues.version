@@ -10,15 +10,15 @@
       "iOSSimulator"
     ]
   },
-  "clangVersion" : "clang-1600.0.26.4",
+  "clangVersion" : "clang-1600.0.26.6",
   "pin" : {
-    "revision" : "d01361d32e14ae9b70ea5bd308a3794a198a2706",
-    "version" : "1.2.0"
+    "revision" : "8e769facea6b7d46ea60e5e93635a384fd573480",
+    "version" : "1.2.1"
   },
   "scipioVersion" : "b02e8049699f2b079a275979590618e61cbc869b",
   "targetName" : "StructuredFieldValues",
   "xcodeVersion" : {
-    "xcodeBuildVersion" : "16B40",
-    "xcodeVersion" : "16.1"
+    "xcodeBuildVersion" : "16C5032a",
+    "xcodeVersion" : "16.2"
   }
 }

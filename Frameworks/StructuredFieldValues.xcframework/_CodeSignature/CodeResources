@@ -10,7 +10,7 @@
 		</data>
 		<key>ios-arm64/StructuredFieldValues.framework/Info.plist</key>
 		<data>
-		QGmnyhgAprd3hOvx9UFFRYYMlz8=
+		t3/w+NtfBztBwUPwWqlwS8AT4GE=
 		</data>
 		<key>ios-arm64/StructuredFieldValues.framework/Modules/StructuredFieldValues.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/StructuredFieldValues.framework/Info.plist</key>
 		<data>
-		Ar2bfYME+eZwYmco7aLtDf7g+l8=
+		aDFcR0S8h8Vx6jv07BgA/5ov478=
 		</data>
 		<key>ios-arm64_x86_64-simulator/StructuredFieldValues.framework/Modules/StructuredFieldValues.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
@@ -106,7 +106,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/StructuredFieldValues.framework/StructuredFieldValues</key>
 		<data>
-		osDamSrl0PmPjIMfAAtbJaNlxfE=
+		jb6jPzFd9KDBIwQ96RMu8LtzC60=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/StructuredFieldValues.framework.dSYM/Contents/Info.plist</key>
 		<data>
@@ -142,11 +142,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QGmnyhgAprd3hOvx9UFFRYYMlz8=
+			t3/w+NtfBztBwUPwWqlwS8AT4GE=
 			</data>
 			<key>hash2</key>
 			<data>
-			VXr3eTI24KA02X7LtHubub6bN/TgGayW+FboxKrapNc=
+			gQO8lvfxjL4nlGZ9ZmsP7tRk3M5dhYo1WZLSCzGjOdI=
 			</data>
 		</dict>
 		<key>ios-arm64/StructuredFieldValues.framework/Modules/StructuredFieldValues.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
@@ -274,11 +274,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ar2bfYME+eZwYmco7aLtDf7g+l8=
+			aDFcR0S8h8Vx6jv07BgA/5ov478=
 			</data>
 			<key>hash2</key>
 			<data>
-			20lsleHruyWxLjA2po7AobacgzKxLHTZawFLfkuEXhI=
+			N9YqV64wdJoMG7GClezcV4Vhs0gYuKb7pMMOawPzXAk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/StructuredFieldValues.framework/Modules/StructuredFieldValues.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
@@ -406,11 +406,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			osDamSrl0PmPjIMfAAtbJaNlxfE=
+			jb6jPzFd9KDBIwQ96RMu8LtzC60=
 			</data>
 			<key>hash2</key>
 			<data>
-			KcC/oKnbspkrpnYBxbweZUcdZ33Nf8WEVLwFYzLjuZY=
+			nFBOx06yp402lKW2/sklOnsMhX3srEHfxLHfBtmusmE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/StructuredFieldValues.framework.dSYM/Contents/Info.plist</key>

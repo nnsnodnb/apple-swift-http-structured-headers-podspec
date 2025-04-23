@@ -12,3 +12,7 @@ xcframework:
 codesign:
 	@codesign --timestamp -v --sign "Apple Distribution: Yuya Oka (99649YXF6E)" Frameworks/RawStructuredFieldValues.xcframework
 	@codesign --timestamp -v --sign "Apple Distribution: Yuya Oka (99649YXF6E)" Frameworks/StructuredFieldValues.xcframework
+
+.PHONY: pod_lint
+pod_lint:
+	@bundle exec pod lib lint swift-http-structured-headers.podspec --allow-warnings

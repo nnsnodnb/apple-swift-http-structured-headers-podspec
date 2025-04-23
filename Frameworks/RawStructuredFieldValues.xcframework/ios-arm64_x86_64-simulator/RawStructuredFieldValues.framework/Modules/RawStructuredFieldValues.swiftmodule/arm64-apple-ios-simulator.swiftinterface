@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature StrictConcurrency=complete -enable-upcoming-feature MemberImportVisibility -enable-bare-slash-regex -module-name RawStructuredFieldValues
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature StrictConcurrency=complete -enable-upcoming-feature MemberImportVisibility -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name RawStructuredFieldValues
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
 import Darwin
 import Swift
 import _Concurrency
@@ -12,8 +12,8 @@ public enum ItemOrInnerList : Swift.Sendable {
   case innerList(RawStructuredFieldValues.InnerList)
 }
 extension RawStructuredFieldValues.ItemOrInnerList : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: RawStructuredFieldValues.ItemOrInnerList, b: RawStructuredFieldValues.ItemOrInnerList) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -57,8 +57,8 @@ extension RawStructuredFieldValues.BareItem : Swift.ExpressibleByStringLiteral {
 }
 @available(*, deprecated)
 extension RawStructuredFieldValues.BareItem : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: RawStructuredFieldValues.BareItem, b: RawStructuredFieldValues.BareItem) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -92,8 +92,8 @@ extension RawStructuredFieldValues.RFC9651BareItem : Swift.ExpressibleByStringLi
   public typealias UnicodeScalarLiteralType = Swift.StringLiteralType
 }
 extension RawStructuredFieldValues.RFC9651BareItem : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: RawStructuredFieldValues.RFC9651BareItem, b: RawStructuredFieldValues.RFC9651BareItem) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -116,8 +116,8 @@ public struct Item : Swift.Sendable {
   public init(bareItem: RawStructuredFieldValues.RFC9651BareItem, parameters: RawStructuredFieldValues.OrderedMap<Swift.String, RawStructuredFieldValues.RFC9651BareItem>)
 }
 extension RawStructuredFieldValues.Item : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: RawStructuredFieldValues.Item, b: RawStructuredFieldValues.Item) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -125,8 +125,8 @@ extension RawStructuredFieldValues.Item : Swift.Hashable {
 public struct BareInnerList : Swift.Hashable, Swift.Sendable {
   public init()
   public mutating func append(_ item: RawStructuredFieldValues.Item)
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: RawStructuredFieldValues.BareInnerList, b: RawStructuredFieldValues.BareInnerList) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -160,8 +160,8 @@ extension RawStructuredFieldValues.BareInnerList : Swift.RandomAccessCollection,
   public typealias SubSequence = Swift.Slice<RawStructuredFieldValues.BareInnerList>
 }
 extension RawStructuredFieldValues.BareInnerList.Index : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: RawStructuredFieldValues.BareInnerList.Index, b: RawStructuredFieldValues.BareInnerList.Index) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -180,8 +180,8 @@ public struct InnerList : Swift.Hashable, Swift.Sendable {
   @available(*, deprecated)
   public init(bareInnerList: RawStructuredFieldValues.BareInnerList, parameters: RawStructuredFieldValues.OrderedMap<Swift.String, RawStructuredFieldValues.BareItem>)
   public init(bareInnerList: RawStructuredFieldValues.BareInnerList, parameters: RawStructuredFieldValues.OrderedMap<Swift.String, RawStructuredFieldValues.RFC9651BareItem>)
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: RawStructuredFieldValues.InnerList, b: RawStructuredFieldValues.InnerList) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -213,8 +213,8 @@ extension RawStructuredFieldValues.StructuredHeaderError {
   public static let indexOutOfRange: RawStructuredFieldValues.StructuredHeaderError
 }
 extension RawStructuredFieldValues.StructuredHeaderError : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: RawStructuredFieldValues.StructuredHeaderError, b: RawStructuredFieldValues.StructuredHeaderError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -324,8 +324,8 @@ public struct PseudoDecimal : Swift.Hashable, Swift.Sendable {
     set
   }
   public init(mantissa: Swift.Int, exponent: Swift.Int)
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: RawStructuredFieldValues.PseudoDecimal, b: RawStructuredFieldValues.PseudoDecimal) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }

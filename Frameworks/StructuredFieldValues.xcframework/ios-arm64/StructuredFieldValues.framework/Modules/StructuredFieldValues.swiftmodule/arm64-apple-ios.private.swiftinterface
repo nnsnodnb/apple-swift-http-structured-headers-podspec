@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature StrictConcurrency=complete -enable-upcoming-feature MemberImportVisibility -enable-bare-slash-regex -module-name StructuredFieldValues
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature StrictConcurrency=complete -enable-upcoming-feature MemberImportVisibility -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name StructuredFieldValues
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
 import Foundation
 import RawStructuredFieldValues
 import Swift
@@ -15,8 +15,8 @@ public struct StructuredFieldValueDecoder : Swift.Sendable {
 extension StructuredFieldValues.StructuredFieldValueDecoder {
   public struct KeyDecodingStrategy : Swift.Hashable, Swift.Sendable {
     public static let lowercase: StructuredFieldValues.StructuredFieldValueDecoder.KeyDecodingStrategy
-    public func hash(into hasher: inout Swift.Hasher)
     public static func == (a: StructuredFieldValues.StructuredFieldValueDecoder.KeyDecodingStrategy, b: StructuredFieldValues.StructuredFieldValueDecoder.KeyDecodingStrategy) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
       get
     }
@@ -37,8 +37,8 @@ public struct StructuredFieldValueEncoder : Swift.Sendable {
 extension StructuredFieldValues.StructuredFieldValueEncoder {
   public struct KeyEncodingStrategy : Swift.Hashable, Swift.Sendable {
     public static let lowercase: StructuredFieldValues.StructuredFieldValueEncoder.KeyEncodingStrategy
-    public func hash(into hasher: inout Swift.Hasher)
     public static func == (a: StructuredFieldValues.StructuredFieldValueEncoder.KeyEncodingStrategy, b: StructuredFieldValues.StructuredFieldValueEncoder.KeyEncodingStrategy) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
       get
     }

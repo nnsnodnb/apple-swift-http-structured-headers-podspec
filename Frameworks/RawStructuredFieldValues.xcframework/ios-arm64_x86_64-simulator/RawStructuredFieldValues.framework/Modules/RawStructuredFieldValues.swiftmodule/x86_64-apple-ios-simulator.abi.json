@@ -9215,49 +9215,49 @@
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 23166,
+      "offset": 23180,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 24193,
+      "offset": 24207,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 24908,
+      "offset": 24922,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 24957,
+      "offset": 24971,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 29662,
+      "offset": 29676,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 30211,
+      "offset": 30225,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 30555,
+      "offset": 30569,
       "length": 2,
       "value": "10"
     },

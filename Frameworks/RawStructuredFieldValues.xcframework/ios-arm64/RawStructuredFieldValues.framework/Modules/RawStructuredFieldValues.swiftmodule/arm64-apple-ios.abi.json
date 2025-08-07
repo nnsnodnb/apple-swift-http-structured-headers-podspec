@@ -2823,6 +2823,13 @@
               },
               {
                 "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Hashable",
                 "printedName": "Hashable",
                 "usr": "s:SH",
@@ -8949,21 +8956,21 @@
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/ComponentTypes.swift",
       "kind": "BooleanLiteral",
-      "offset": 10289,
+      "offset": 10299,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/ComponentTypes.swift",
       "kind": "BooleanLiteral",
-      "offset": 11256,
+      "offset": 11266,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/ComponentTypes.swift",
       "kind": "BooleanLiteral",
-      "offset": 11302,
+      "offset": 11312,
       "length": 4,
       "value": "true"
     },

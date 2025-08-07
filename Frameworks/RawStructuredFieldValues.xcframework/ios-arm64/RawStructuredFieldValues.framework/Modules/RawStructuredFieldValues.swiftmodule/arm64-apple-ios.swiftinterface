@@ -136,7 +136,7 @@ extension RawStructuredFieldValues.BareInnerList : Swift.ExpressibleByArrayLiter
   public typealias ArrayLiteralElement = RawStructuredFieldValues.Item
 }
 extension RawStructuredFieldValues.BareInnerList : Swift.RandomAccessCollection, Swift.MutableCollection {
-  public struct Index {
+  public struct Index : Swift.Sendable {
   }
   public var count: Swift.Int {
     get

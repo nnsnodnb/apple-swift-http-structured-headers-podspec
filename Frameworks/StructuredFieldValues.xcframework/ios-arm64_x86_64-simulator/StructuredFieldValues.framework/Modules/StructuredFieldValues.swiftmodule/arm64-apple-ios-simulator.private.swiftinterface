@@ -25,7 +25,7 @@ extension StructuredFieldValues.StructuredFieldValueDecoder {
 extension StructuredFieldValues.StructuredFieldValueDecoder {
   public func decode<StructuredField, BaseData>(_ type: StructuredField.Type = StructuredField.self, from data: BaseData) throws -> StructuredField where StructuredField : StructuredFieldValues.StructuredFieldValue, BaseData : Swift.RandomAccessCollection, BaseData.Element == Swift.UInt8
 }
-public struct DisplayString : Swift.RawRepresentable, Swift.Codable, Swift.Equatable, Swift.Hashable {
+public struct DisplayString : Swift.RawRepresentable, Swift.Codable, Swift.Equatable, Swift.Hashable, Swift.Sendable {
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String
   public init(rawValue: Swift.String)

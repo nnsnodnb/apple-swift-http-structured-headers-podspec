@@ -1,4 +1,4 @@
-// swift-tools-version:5.8
+// swift-tools-version:6.0
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "apple-swift-http-structured-headers-podspec",
     platforms: [
-        .iOS(.v11)
+        .iOS(.v12)
     ],
     products: [
         .library(
@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/apple/swift-http-structured-headers.git",
-            .upToNextMinor(from: "1.4.0")
+            .upToNextMinor(from: "1.5.0")
         ),
     ],
     targets: [

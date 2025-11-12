@@ -5,6 +5,1013 @@
     "printedName": "RawStructuredFieldValues",
     "children": [
       {
+        "kind": "Var",
+        "name": "asciiSpace",
+        "printedName": "asciiSpace",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues10asciiSpaces5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues10asciiSpaces5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "RawDocComment"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiTab",
+        "printedName": "asciiTab",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues8asciiTabs5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues8asciiTabs5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiOpenParenthesis",
+        "printedName": "asciiOpenParenthesis",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues20asciiOpenParenthesiss5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues20asciiOpenParenthesiss5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiCloseParenthesis",
+        "printedName": "asciiCloseParenthesis",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues21asciiCloseParenthesiss5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues21asciiCloseParenthesiss5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiDash",
+        "printedName": "asciiDash",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues9asciiDashs5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues9asciiDashs5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiUnderscore",
+        "printedName": "asciiUnderscore",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues15asciiUnderscores5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues15asciiUnderscores5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiZero",
+        "printedName": "asciiZero",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues9asciiZeros5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues9asciiZeros5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiOne",
+        "printedName": "asciiOne",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues8asciiOnes5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues8asciiOnes5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiNine",
+        "printedName": "asciiNine",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues9asciiNines5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues9asciiNines5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiDigits",
+        "printedName": "asciiDigits",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "ClosedRange",
+            "printedName": "Swift.ClosedRange<Swift.UInt8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              }
+            ],
+            "usr": "s:SN"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues11asciiDigitsSNys5UInt8VGvp",
+        "mangledName": "$s24RawStructuredFieldValues11asciiDigitsSNys5UInt8VGvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiDquote",
+        "printedName": "asciiDquote",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues11asciiDquotes5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues11asciiDquotes5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiColon",
+        "printedName": "asciiColon",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues10asciiColons5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues10asciiColons5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiSemicolon",
+        "printedName": "asciiSemicolon",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues14asciiSemicolons5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues14asciiSemicolons5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiBackslash",
+        "printedName": "asciiBackslash",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues14asciiBackslashs5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues14asciiBackslashs5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiQuestionMark",
+        "printedName": "asciiQuestionMark",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues17asciiQuestionMarks5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues17asciiQuestionMarks5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiExclamationMark",
+        "printedName": "asciiExclamationMark",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues20asciiExclamationMarks5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues20asciiExclamationMarks5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiAt",
+        "printedName": "asciiAt",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues7asciiAts5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues7asciiAts5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiOctothorpe",
+        "printedName": "asciiOctothorpe",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues15asciiOctothorpes5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues15asciiOctothorpes5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiDollar",
+        "printedName": "asciiDollar",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues11asciiDollars5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues11asciiDollars5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiPercent",
+        "printedName": "asciiPercent",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues12asciiPercents5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues12asciiPercents5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiAmpersand",
+        "printedName": "asciiAmpersand",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues14asciiAmpersands5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues14asciiAmpersands5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiSquote",
+        "printedName": "asciiSquote",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues11asciiSquotes5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues11asciiSquotes5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiCaret",
+        "printedName": "asciiCaret",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues10asciiCarets5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues10asciiCarets5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiBacktick",
+        "printedName": "asciiBacktick",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues13asciiBackticks5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues13asciiBackticks5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiPipe",
+        "printedName": "asciiPipe",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues9asciiPipes5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues9asciiPipes5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiTilde",
+        "printedName": "asciiTilde",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues10asciiTildes5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues10asciiTildes5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiAsterisk",
+        "printedName": "asciiAsterisk",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues13asciiAsterisks5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues13asciiAsterisks5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiEqual",
+        "printedName": "asciiEqual",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues10asciiEquals5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues10asciiEquals5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiPlus",
+        "printedName": "asciiPlus",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues9asciiPluss5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues9asciiPluss5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiSlash",
+        "printedName": "asciiSlash",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues10asciiSlashs5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues10asciiSlashs5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiPeriod",
+        "printedName": "asciiPeriod",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues11asciiPeriods5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues11asciiPeriods5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiComma",
+        "printedName": "asciiComma",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues10asciiCommas5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues10asciiCommas5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiCapitalA",
+        "printedName": "asciiCapitalA",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues13asciiCapitalAs5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues13asciiCapitalAs5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiCapitalF",
+        "printedName": "asciiCapitalF",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues13asciiCapitalFs5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues13asciiCapitalFs5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiCapitalZ",
+        "printedName": "asciiCapitalZ",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues13asciiCapitalZs5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues13asciiCapitalZs5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiLowerA",
+        "printedName": "asciiLowerA",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues11asciiLowerAs5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues11asciiLowerAs5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiLowerF",
+        "printedName": "asciiLowerF",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues11asciiLowerFs5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues11asciiLowerFs5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiLowerZ",
+        "printedName": "asciiLowerZ",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues11asciiLowerZs5UInt8Vvp",
+        "mangledName": "$s24RawStructuredFieldValues11asciiLowerZs5UInt8Vvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiCapitals",
+        "printedName": "asciiCapitals",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "ClosedRange",
+            "printedName": "Swift.ClosedRange<Swift.UInt8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              }
+            ],
+            "usr": "s:SN"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues13asciiCapitalsSNys5UInt8VGvp",
+        "mangledName": "$s24RawStructuredFieldValues13asciiCapitalsSNys5UInt8VGvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiLowercases",
+        "printedName": "asciiLowercases",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "ClosedRange",
+            "printedName": "Swift.ClosedRange<Swift.UInt8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              }
+            ],
+            "usr": "s:SN"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues15asciiLowercasesSNys5UInt8VGvp",
+        "mangledName": "$s24RawStructuredFieldValues15asciiLowercasesSNys5UInt8VGvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiHexCapitals",
+        "printedName": "asciiHexCapitals",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "ClosedRange",
+            "printedName": "Swift.ClosedRange<Swift.UInt8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              }
+            ],
+            "usr": "s:SN"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues16asciiHexCapitalsSNys5UInt8VGvp",
+        "mangledName": "$s24RawStructuredFieldValues16asciiHexCapitalsSNys5UInt8VGvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "asciiHexLowercases",
+        "printedName": "asciiHexLowercases",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "ClosedRange",
+            "printedName": "Swift.ClosedRange<Swift.UInt8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              }
+            ],
+            "usr": "s:SN"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:24RawStructuredFieldValues18asciiHexLowercasesSNys5UInt8VGvp",
+        "mangledName": "$s24RawStructuredFieldValues18asciiHexLowercasesSNys5UInt8VGvp",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
         "kind": "TypeDecl",
         "name": "ItemOrInnerList",
         "printedName": "ItemOrInnerList",
@@ -689,6 +1696,32 @@
               "AccessControl"
             ],
             "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(transforming:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BareItem",
+                "printedName": "RawStructuredFieldValues.BareItem",
+                "usr": "s:24RawStructuredFieldValues8BareItemO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RFC9651BareItem",
+                "printedName": "RawStructuredFieldValues.RFC9651BareItem",
+                "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24RawStructuredFieldValues8BareItemO12transformingAcA07RFC9651eF0O_tKcfc",
+            "mangledName": "$s24RawStructuredFieldValues8BareItemO12transformingAcA07RFC9651eF0O_tKcfc",
+            "moduleName": "RawStructuredFieldValues",
+            "isFromExtension": true,
+            "throwing": true,
             "init_kind": "Designated"
           },
           {
@@ -1511,6 +2544,36 @@
               "AccessControl"
             ],
             "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(transforming:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RFC9651BareItem",
+                "printedName": "RawStructuredFieldValues.RFC9651BareItem",
+                "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BareItem",
+                "printedName": "RawStructuredFieldValues.BareItem",
+                "usr": "s:24RawStructuredFieldValues8BareItemO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24RawStructuredFieldValues15RFC9651BareItemO12transformingAcA0fG0O_tKcfc",
+            "mangledName": "$s24RawStructuredFieldValues15RFC9651BareItemO12transformingAcA0fG0O_tKcfc",
+            "moduleName": "RawStructuredFieldValues",
+            "deprecated": true,
+            "declAttributes": [
+              "Available"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
             "init_kind": "Designated"
           },
           {
@@ -2662,6 +3725,30 @@
             "name": "Index",
             "printedName": "Index",
             "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Index",
+                    "printedName": "RawStructuredFieldValues.BareInnerList.Index",
+                    "usr": "s:24RawStructuredFieldValues13BareInnerListV5IndexV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:24RawStructuredFieldValues13BareInnerListV5IndexVyAESicfc",
+                "mangledName": "$s24RawStructuredFieldValues13BareInnerListV5IndexVyAESicfc",
+                "moduleName": "RawStructuredFieldValues",
+                "init_kind": "Designated"
+              },
               {
                 "kind": "Var",
                 "name": "hashValue",
@@ -5405,6 +6492,169 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "EncodedHex",
+        "printedName": "EncodedHex",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "firstChar",
+            "printedName": "firstChar",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24RawStructuredFieldValues10EncodedHexV9firstChars5UInt8Vvp",
+            "mangledName": "$s24RawStructuredFieldValues10EncodedHexV9firstChars5UInt8Vvp",
+            "moduleName": "RawStructuredFieldValues",
+            "declAttributes": [
+              "HasStorage",
+              "SetterAccess"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24RawStructuredFieldValues10EncodedHexV9firstChars5UInt8Vvg",
+                "mangledName": "$s24RawStructuredFieldValues10EncodedHexV9firstChars5UInt8Vvg",
+                "moduleName": "RawStructuredFieldValues",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "secondChar",
+            "printedName": "secondChar",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24RawStructuredFieldValues10EncodedHexV10secondChars5UInt8Vvp",
+            "mangledName": "$s24RawStructuredFieldValues10EncodedHexV10secondChars5UInt8Vvp",
+            "moduleName": "RawStructuredFieldValues",
+            "declAttributes": [
+              "HasStorage",
+              "SetterAccess"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24RawStructuredFieldValues10EncodedHexV10secondChars5UInt8Vvg",
+                "mangledName": "$s24RawStructuredFieldValues10EncodedHexV10secondChars5UInt8Vvg",
+                "moduleName": "RawStructuredFieldValues",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EncodedHex",
+                "printedName": "RawStructuredFieldValues.EncodedHex",
+                "usr": "s:24RawStructuredFieldValues10EncodedHexV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24RawStructuredFieldValues10EncodedHexVyACxcSkRzs5UInt8V7ElementRtzlufc",
+            "mangledName": "$s24RawStructuredFieldValues10EncodedHexVyACxcSkRzs5UInt8V7ElementRtzlufc",
+            "moduleName": "RawStructuredFieldValues",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.RandomAccessCollection, τ_0_0.Element == Swift.UInt8>",
+            "sugared_genericSig": "<Bytes where Bytes : Swift.RandomAccessCollection, Bytes.Element == Swift.UInt8>",
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:24RawStructuredFieldValues10EncodedHexV",
+        "mangledName": "$s24RawStructuredFieldValues10EncodedHexV",
+        "moduleName": "RawStructuredFieldValues",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "StructuredFieldValueSerializer",
         "printedName": "StructuredFieldValueSerializer",
         "children": [
@@ -5771,6 +7021,62 @@
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "mapValues",
+            "printedName": "mapValues(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OrderedMap",
+                "printedName": "RawStructuredFieldValues.OrderedMap<τ_0_0, τ_1_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ],
+                "usr": "s:24RawStructuredFieldValues10OrderedMapV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_1) throws -> τ_1_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24RawStructuredFieldValues10OrderedMapV03mapD0yACyxqd__Gqd__q_KXEKlF",
+            "mangledName": "$s24RawStructuredFieldValues10OrderedMapV03mapD0yACyxqd__Gqd__q_KXEKlF",
+            "moduleName": "RawStructuredFieldValues",
+            "genericSig": "<τ_0_0, τ_0_1, τ_1_0 where τ_0_0 : Swift.Hashable>",
+            "sugared_genericSig": "<Key, Value, NewValue where Key : Swift.Hashable>",
+            "declAttributes": [
+              "Rethrows"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "TypeDecl",
@@ -7411,6 +8717,34 @@
             "init_kind": "Designated"
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(bytes:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PseudoDecimal",
+                "printedName": "RawStructuredFieldValues.PseudoDecimal",
+                "usr": "s:24RawStructuredFieldValues13PseudoDecimalV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24RawStructuredFieldValues13PseudoDecimalV5bytesACx_tcSkRzs5UInt8V7ElementRtzlufc",
+            "mangledName": "$s24RawStructuredFieldValues13PseudoDecimalV5bytesACx_tcSkRzs5UInt8V7ElementRtzlufc",
+            "moduleName": "RawStructuredFieldValues",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.RandomAccessCollection, τ_0_0.Element == Swift.UInt8>",
+            "sugared_genericSig": "<Bytes where Bytes : Swift.RandomAccessCollection, Bytes.Element == Swift.UInt8>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Var",
             "name": "hashValue",
             "printedName": "hashValue",
@@ -7679,6 +9013,25 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "validateStructuredHeaderKey",
+            "printedName": "validateStructuredHeaderKey()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS24RawStructuredFieldValuesE08validateB9HeaderKeyyyKF",
+            "mangledName": "$sSS24RawStructuredFieldValuesE08validateB9HeaderKeyyyKF",
+            "moduleName": "RawStructuredFieldValues",
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Constructor",
@@ -8222,6 +9575,126 @@
             "printedName": "MirrorPath",
             "usr": "s:s10MirrorPathP",
             "mangledName": "$ss10MirrorPathP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RandomAccessCollection",
+        "printedName": "RandomAccessCollection",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "stripLeadingSpaces",
+            "printedName": "stripLeadingSpaces()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:Sk24RawStructuredFieldValues11SubSequenceQzRszs5UInt8V7ElementRtzrlE18stripLeadingSpacesyyF",
+            "mangledName": "$sSk24RawStructuredFieldValues11SubSequenceQzRszs5UInt8V7ElementRtzrlE18stripLeadingSpacesyyF",
+            "moduleName": "RawStructuredFieldValues",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.RandomAccessCollection, τ_0_0 == τ_0_0.SubSequence, τ_0_0.Element == Swift.UInt8>",
+            "sugared_genericSig": "<Self where Self : Swift.RandomAccessCollection, Self == Self.SubSequence, Self.Element == Swift.UInt8>",
+            "declAttributes": [
+              "Mutating"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "Mutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stripLeadingOWS",
+            "printedName": "stripLeadingOWS()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:Sk24RawStructuredFieldValues11SubSequenceQzRszs5UInt8V7ElementRtzrlE15stripLeadingOWSyyF",
+            "mangledName": "$sSk24RawStructuredFieldValues11SubSequenceQzRszs5UInt8V7ElementRtzrlE15stripLeadingOWSyyF",
+            "moduleName": "RawStructuredFieldValues",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.RandomAccessCollection, τ_0_0 == τ_0_0.SubSequence, τ_0_0.Element == Swift.UInt8>",
+            "sugared_genericSig": "<Self where Self : Swift.RandomAccessCollection, Self == Self.SubSequence, Self.Element == Swift.UInt8>",
+            "declAttributes": [
+              "Mutating"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "Mutating"
+          },
+          {
+            "kind": "Function",
+            "name": "consumeFirst",
+            "printedName": "consumeFirst()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:Sk24RawStructuredFieldValues11SubSequenceQzRszs5UInt8V7ElementRtzrlE12consumeFirstyyF",
+            "mangledName": "$sSk24RawStructuredFieldValues11SubSequenceQzRszs5UInt8V7ElementRtzrlE12consumeFirstyyF",
+            "moduleName": "RawStructuredFieldValues",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.RandomAccessCollection, τ_0_0 == τ_0_0.SubSequence, τ_0_0.Element == Swift.UInt8>",
+            "sugared_genericSig": "<Self where Self : Swift.RandomAccessCollection, Self == Self.SubSequence, Self.Element == Swift.UInt8>",
+            "declAttributes": [
+              "Mutating"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "Mutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:Sk",
+        "mangledName": "$sSk",
+        "moduleName": "Swift",
+        "genericSig": "<τ_0_0 : Swift.BidirectionalCollection, τ_0_0.Indices : Swift.RandomAccessCollection, τ_0_0.SubSequence : Swift.RandomAccessCollection>",
+        "sugared_genericSig": "<Self : Swift.BidirectionalCollection, Self.Indices : Swift.RandomAccessCollection, Self.SubSequence : Swift.RandomAccessCollection>",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BidirectionalCollection",
+            "printedName": "BidirectionalCollection",
+            "usr": "s:SK",
+            "mangledName": "$sSK"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "usr": "s:ST",
+            "mangledName": "$sST"
           }
         ]
       },
@@ -9229,42 +10702,42 @@
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 24207,
+      "offset": 24210,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 24922,
+      "offset": 24925,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 24971,
+      "offset": 24974,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 29676,
+      "offset": 29679,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 30225,
+      "offset": 30228,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/FieldParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 30569,
+      "offset": 30572,
       "length": 2,
       "value": "10"
     },

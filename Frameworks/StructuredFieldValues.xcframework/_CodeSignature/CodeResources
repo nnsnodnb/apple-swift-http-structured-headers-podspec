@@ -6,31 +6,31 @@
 	<dict>
 		<key>ios-arm64/StructuredFieldValues.framework/Headers/StructuredFieldValues-Swift.h</key>
 		<data>
-		sAlbE/mvJNtrVLFmO4bsAb4Yad4=
+		iJSgsgDhXLa4QCtSXKKeqCcbPMo=
 		</data>
 		<key>ios-arm64/StructuredFieldValues.framework/Info.plist</key>
 		<data>
-		AYq3tZGgY5J1IxA/iGa6vhY2eyc=
+		8KRkSKM7uceL9CO+wmnWUYNFoxM=
 		</data>
 		<key>ios-arm64/StructuredFieldValues.framework/Modules/StructuredFieldValues.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		ylatci1kxfK6wHfXlAyPnVTwkJw=
+		vXAOH/Jmf0EqiZmtOkiS/JIw/RE=
 		</data>
 		<key>ios-arm64/StructuredFieldValues.framework/Modules/StructuredFieldValues.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		gqmqY9iWtzt/FUCT6zvz7eT/A6I=
+		XyPxVVlil4beZIml7XFUqKSWDQg=
 		</data>
 		<key>ios-arm64/StructuredFieldValues.framework/Modules/StructuredFieldValues.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		69mCm2vIK02J/50d8pCzPUACUXk=
+		yWvR2vUgAhyjsfOQraLuH7P5+wY=
 		</data>
 		<key>ios-arm64/StructuredFieldValues.framework/Modules/StructuredFieldValues.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		fqRAJDJC0k8nUmRrgl2btmH+sSU=
+		AkGkZ9UqBPaxPiWIXkXIk60o400=
 		</data>
 		<key>ios-arm64/StructuredFieldValues.framework/Modules/StructuredFieldValues.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		69mCm2vIK02J/50d8pCzPUACUXk=
+		yWvR2vUgAhyjsfOQraLuH7P5+wY=
 		</data>
 		<key>ios-arm64/StructuredFieldValues.framework/Modules/module.modulemap</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>ios-arm64/StructuredFieldValues.framework/StructuredFieldValues</key>
 		<data>
-		N2388CgJnTd4rw6nOeUZ3DioN0o=
+		MMw65W0tfdMBqqADvZk3CFftzzo=
 		</data>
 		<key>ios-arm64/dSYMs/StructuredFieldValues.framework.dSYM/Contents/Info.plist</key>
 		<data>
@@ -46,59 +46,59 @@
 		</data>
 		<key>ios-arm64/dSYMs/StructuredFieldValues.framework.dSYM/Contents/Resources/DWARF/StructuredFieldValues</key>
 		<data>
-		2SaBSyVzYqzQfsTdA6WyFGLKyns=
+		BlmCCR3CAJaiE3GEs02DN2u9YRs=
 		</data>
 		<key>ios-arm64/dSYMs/StructuredFieldValues.framework.dSYM/Contents/Resources/Relocations/aarch64/StructuredFieldValues.yml</key>
 		<data>
-		EqQVWssc8D4crZF9jdnZnqS7lL4=
+		G2oEQ9tbY0tV8yjAEGSLIq1og+Q=
 		</data>
 		<key>ios-arm64_x86_64-simulator/StructuredFieldValues.framework/Headers/StructuredFieldValues-Swift.h</key>
 		<data>
-		fw0AIqH8IPIogQfdg6oXbrxRvsc=
+		3PgXZ9ceMLtMrRJfis2z/T1/HtM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/StructuredFieldValues.framework/Info.plist</key>
 		<data>
-		Musz105fxJ6la2Vvm37fi5SbB58=
+		5t7OnBYnDFWkTcOsIPIr9GZAqGE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/StructuredFieldValues.framework/Modules/StructuredFieldValues.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		8dtRVAuEdu7SRCv7qrJUsY6nRoI=
+		TIi3TEMviyk61ZF1xpFqN0xqeqg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/StructuredFieldValues.framework/Modules/StructuredFieldValues.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		SvyYkioKyEQvBOvZiNTbvu7DaKQ=
+		rzbPIhAHe0UIWRCV/0x5qlto3FQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/StructuredFieldValues.framework/Modules/StructuredFieldValues.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		gqmqY9iWtzt/FUCT6zvz7eT/A6I=
+		XyPxVVlil4beZIml7XFUqKSWDQg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/StructuredFieldValues.framework/Modules/StructuredFieldValues.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		hTgpRC/bec/V3ADjRxiU3lbPJ4A=
+		YrW5Vs7yvSxpCATnebA0pCoFEaY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/StructuredFieldValues.framework/Modules/StructuredFieldValues.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		3ScQhC1PzyBpE3J0UpUYf8dr7q4=
+		JTkhby+T+6X6MK5bS09RwK2EmPw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/StructuredFieldValues.framework/Modules/StructuredFieldValues.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		hTgpRC/bec/V3ADjRxiU3lbPJ4A=
+		YrW5Vs7yvSxpCATnebA0pCoFEaY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/StructuredFieldValues.framework/Modules/StructuredFieldValues.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		gqmqY9iWtzt/FUCT6zvz7eT/A6I=
+		XyPxVVlil4beZIml7XFUqKSWDQg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/StructuredFieldValues.framework/Modules/StructuredFieldValues.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		scneSKfP2bo+bkd6ZHeZHP9o+Ac=
+		fDNE5fgpcpg1S8eKnBYxrWDG+M4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/StructuredFieldValues.framework/Modules/StructuredFieldValues.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		YrN30TpbFO1qOnKvHrKVb2oQ3mM=
+		VtsywMvGu1FiG1powGBcfvR+dCI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/StructuredFieldValues.framework/Modules/StructuredFieldValues.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		scneSKfP2bo+bkd6ZHeZHP9o+Ac=
+		fDNE5fgpcpg1S8eKnBYxrWDG+M4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/StructuredFieldValues.framework/Modules/module.modulemap</key>
 		<data>
@@ -106,7 +106,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/StructuredFieldValues.framework/StructuredFieldValues</key>
 		<data>
-		KBzvQ0b2oj54TsRG8ZE6MgS/KV4=
+		moimGdlLDR8eArVkLdguMdhpqEs=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/StructuredFieldValues.framework.dSYM/Contents/Info.plist</key>
 		<data>
@@ -114,102 +114,70 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/StructuredFieldValues.framework.dSYM/Contents/Resources/DWARF/StructuredFieldValues</key>
 		<data>
-		1DP4v9iSGhJjc71p6Dg4vySULlc=
+		YrSYvExRJ85CstmIVIAuIwEMGvE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/StructuredFieldValues.framework.dSYM/Contents/Resources/Relocations/aarch64/StructuredFieldValues.yml</key>
 		<data>
-		sAFDSW5VF0GTg5NIm6S4kIH2gPY=
+		CNUE5QWaQ94/ey4N4Mq08T8Ojxs=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/StructuredFieldValues.framework.dSYM/Contents/Resources/Relocations/x86_64/StructuredFieldValues.yml</key>
 		<data>
-		+gMXLSxhrVkoVjwo10nNYde5HrM=
+		+ipZyuv6mn5d7uQtuF/Z74PJLhU=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>ios-arm64/StructuredFieldValues.framework/Headers/StructuredFieldValues-Swift.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sAlbE/mvJNtrVLFmO4bsAb4Yad4=
-			</data>
 			<key>hash2</key>
 			<data>
-			0GAORGmyyTeb1sFa2S2sxcOCtZK/zR7Rc8WXphLwO6E=
+			X7UYz/Ed5CKktdJ8J6V1TN8u0X680o5NM/DISQUgkOU=
 			</data>
 		</dict>
 		<key>ios-arm64/StructuredFieldValues.framework/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			AYq3tZGgY5J1IxA/iGa6vhY2eyc=
-			</data>
 			<key>hash2</key>
 			<data>
-			325VZQRAIajxBqDaynF3P6n8M+1amuBeifMUHD76BuM=
+			DLkO8dnsZ2vpkMggnGl6AQmejdzWgVP28W+RDzpozaE=
 			</data>
 		</dict>
 		<key>ios-arm64/StructuredFieldValues.framework/Modules/StructuredFieldValues.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ylatci1kxfK6wHfXlAyPnVTwkJw=
-			</data>
 			<key>hash2</key>
 			<data>
-			cqsju9uuY3rY+7X+8XJPCl90+IKg/v9+5X5ZhVF43UU=
+			ZpFNmswKg0UHy3qMFCmPUxTQ+Rq09J8mrpnzdPovYjs=
 			</data>
 		</dict>
 		<key>ios-arm64/StructuredFieldValues.framework/Modules/StructuredFieldValues.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			gqmqY9iWtzt/FUCT6zvz7eT/A6I=
-			</data>
 			<key>hash2</key>
 			<data>
-			fpkZqeKnyFc4dF1YY0cjlWVQDiTb2m9EU27lWFgM07g=
+			/LYMUi2TRnZ5/qe10BznBMvKvJqkcl4SsE4WPvnqCos=
 			</data>
 		</dict>
 		<key>ios-arm64/StructuredFieldValues.framework/Modules/StructuredFieldValues.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			69mCm2vIK02J/50d8pCzPUACUXk=
-			</data>
 			<key>hash2</key>
 			<data>
-			aqjSEy/uBY8Eu62gq6hERTGgB0LdQJwlDl49t4HCMR8=
+			RYRrphfNortHtc7McQx+ClY/DS0THYzg6fGB09hxFBs=
 			</data>
 		</dict>
 		<key>ios-arm64/StructuredFieldValues.framework/Modules/StructuredFieldValues.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			fqRAJDJC0k8nUmRrgl2btmH+sSU=
-			</data>
 			<key>hash2</key>
 			<data>
-			B17ZUxmPy+QOcInjXCRYlTlNbmDLco68dTbxi8nzJj8=
+			zW9SjLtqYzuec/aElkFt2/A1iUdpItWee4eObJauja8=
 			</data>
 		</dict>
 		<key>ios-arm64/StructuredFieldValues.framework/Modules/StructuredFieldValues.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			69mCm2vIK02J/50d8pCzPUACUXk=
-			</data>
 			<key>hash2</key>
 			<data>
-			aqjSEy/uBY8Eu62gq6hERTGgB0LdQJwlDl49t4HCMR8=
+			RYRrphfNortHtc7McQx+ClY/DS0THYzg6fGB09hxFBs=
 			</data>
 		</dict>
 		<key>ios-arm64/StructuredFieldValues.framework/Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oT/GKFa1GO8XKlTUtEX0mxOfJIo=
-			</data>
 			<key>hash2</key>
 			<data>
 			dYd7gKMaaF284OeKIoWn9IZ+usd5XRW/Xq1gC31M+PI=
@@ -217,21 +185,13 @@
 		</dict>
 		<key>ios-arm64/StructuredFieldValues.framework/StructuredFieldValues</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			N2388CgJnTd4rw6nOeUZ3DioN0o=
-			</data>
 			<key>hash2</key>
 			<data>
-			f2lBiulR6dKMKm4Jq64PqPKqqPAB4TnCJwUu6HsSvhs=
+			i6V0ZIb7maVuTUr8FbQOOzKH+5SpaUZNjL7iSrRFnE0=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/StructuredFieldValues.framework.dSYM/Contents/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			x8ok3LSI6urCIkbHulFgnKXdaXw=
-			</data>
 			<key>hash2</key>
 			<data>
 			GIhohGDFOAmGr7tpgFHs4h6GVXuZd5fF6jEku+woGVs=
@@ -239,164 +199,104 @@
 		</dict>
 		<key>ios-arm64/dSYMs/StructuredFieldValues.framework.dSYM/Contents/Resources/DWARF/StructuredFieldValues</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2SaBSyVzYqzQfsTdA6WyFGLKyns=
-			</data>
 			<key>hash2</key>
 			<data>
-			Vc+SLvV51Kgvv62+BPmYXUkOGj7JIkhsv+ihWMq7exI=
+			2CNPFAhNmA411mXzI5YkjiALFEw1Hy35rKAgjjkLFJE=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/StructuredFieldValues.framework.dSYM/Contents/Resources/Relocations/aarch64/StructuredFieldValues.yml</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			EqQVWssc8D4crZF9jdnZnqS7lL4=
-			</data>
 			<key>hash2</key>
 			<data>
-			OYCwPnaHSuDc/fqWLIlff8L85IdSRsOsAC3D431l4GI=
+			80KljxOrP4d/aHkELj2aTCEEQ0PQnf5Sf6c056Jih6I=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/StructuredFieldValues.framework/Headers/StructuredFieldValues-Swift.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			fw0AIqH8IPIogQfdg6oXbrxRvsc=
-			</data>
 			<key>hash2</key>
 			<data>
-			u9U63H6NHVErdlsTbBvDGMdi+JMCPVVqFk4jsrvXnHU=
+			AYqry85YhlKjns+l21MfET7KSTppCV4PWGlcyho16UM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/StructuredFieldValues.framework/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Musz105fxJ6la2Vvm37fi5SbB58=
-			</data>
 			<key>hash2</key>
 			<data>
-			Vgvs5icUC2d8w/LLZupYZmUoflNPQ0MNYtMAI72W6d4=
+			xyeFFbf3CMBQWJDC35B+kSQ2n7mZMabX32c9nf4Yspc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/StructuredFieldValues.framework/Modules/StructuredFieldValues.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			8dtRVAuEdu7SRCv7qrJUsY6nRoI=
-			</data>
 			<key>hash2</key>
 			<data>
-			Nj8C5NzA2CpakrQlk7FElkrVnTjf1qvYDI7gQD5FA70=
+			n4q8e75TwoGsxRImSX2RJ+5HiMpevbA0eCEgvA1rU7A=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/StructuredFieldValues.framework/Modules/StructuredFieldValues.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			SvyYkioKyEQvBOvZiNTbvu7DaKQ=
-			</data>
 			<key>hash2</key>
 			<data>
-			uxi0h4xpH6bCdxtbHt1HPqDvDp331nDs+iqdvqldhL8=
+			/R7EugcPBAkjDSf+p4xQA59oCdBcV+482bfIsPkdWZ0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/StructuredFieldValues.framework/Modules/StructuredFieldValues.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			gqmqY9iWtzt/FUCT6zvz7eT/A6I=
-			</data>
 			<key>hash2</key>
 			<data>
-			fpkZqeKnyFc4dF1YY0cjlWVQDiTb2m9EU27lWFgM07g=
+			/LYMUi2TRnZ5/qe10BznBMvKvJqkcl4SsE4WPvnqCos=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/StructuredFieldValues.framework/Modules/StructuredFieldValues.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			hTgpRC/bec/V3ADjRxiU3lbPJ4A=
-			</data>
 			<key>hash2</key>
 			<data>
-			s8n7sgjmWAasp5MR9J8giA4dSYAbzUgSV+Ao+ThcHJU=
+			aTNdq5pItyo+5hzl5NK5zICPpxpwryPoxTRsOuZ7KWc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/StructuredFieldValues.framework/Modules/StructuredFieldValues.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			3ScQhC1PzyBpE3J0UpUYf8dr7q4=
-			</data>
 			<key>hash2</key>
 			<data>
-			KJOi2kKBt36L8HsfxsU42Jdwt0qgqlLsII55HsSmzt8=
+			mZoK8m2OKn2/PVVPDvBeMxUY3dR7m6ZXPXEDMAC9Cis=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/StructuredFieldValues.framework/Modules/StructuredFieldValues.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			hTgpRC/bec/V3ADjRxiU3lbPJ4A=
-			</data>
 			<key>hash2</key>
 			<data>
-			s8n7sgjmWAasp5MR9J8giA4dSYAbzUgSV+Ao+ThcHJU=
+			aTNdq5pItyo+5hzl5NK5zICPpxpwryPoxTRsOuZ7KWc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/StructuredFieldValues.framework/Modules/StructuredFieldValues.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			gqmqY9iWtzt/FUCT6zvz7eT/A6I=
-			</data>
 			<key>hash2</key>
 			<data>
-			fpkZqeKnyFc4dF1YY0cjlWVQDiTb2m9EU27lWFgM07g=
+			/LYMUi2TRnZ5/qe10BznBMvKvJqkcl4SsE4WPvnqCos=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/StructuredFieldValues.framework/Modules/StructuredFieldValues.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			scneSKfP2bo+bkd6ZHeZHP9o+Ac=
-			</data>
 			<key>hash2</key>
 			<data>
-			jI3Lo+LbRx1iqbHLQUI6vvANflPmBfdG/0Myn7rQg2k=
+			8Y5JaoTgVkiygHppJW9EkOwBqN8DqvDhp9vl/gNx49Y=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/StructuredFieldValues.framework/Modules/StructuredFieldValues.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			YrN30TpbFO1qOnKvHrKVb2oQ3mM=
-			</data>
 			<key>hash2</key>
 			<data>
-			/aRtvsOGkQKVw4ktcYNeANhv8iY+26NNwtTwxmQCCE8=
+			u6nmRdk3vx0NbGnlEbcDm/vgPBybS1aA5qLfEfiwtvg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/StructuredFieldValues.framework/Modules/StructuredFieldValues.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			scneSKfP2bo+bkd6ZHeZHP9o+Ac=
-			</data>
 			<key>hash2</key>
 			<data>
-			jI3Lo+LbRx1iqbHLQUI6vvANflPmBfdG/0Myn7rQg2k=
+			8Y5JaoTgVkiygHppJW9EkOwBqN8DqvDhp9vl/gNx49Y=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/StructuredFieldValues.framework/Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oT/GKFa1GO8XKlTUtEX0mxOfJIo=
-			</data>
 			<key>hash2</key>
 			<data>
 			dYd7gKMaaF284OeKIoWn9IZ+usd5XRW/Xq1gC31M+PI=
@@ -404,21 +304,13 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/StructuredFieldValues.framework/StructuredFieldValues</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KBzvQ0b2oj54TsRG8ZE6MgS/KV4=
-			</data>
 			<key>hash2</key>
 			<data>
-			iZA3aLD15KI324YBRrv1OoV8zCcxrmnwGTiu5qYmZL4=
+			WBSR1xcLTmVdvAVRDI9EvmwTFAoD8XPxKEbIN+ycJ8Y=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/StructuredFieldValues.framework.dSYM/Contents/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			x8ok3LSI6urCIkbHulFgnKXdaXw=
-			</data>
 			<key>hash2</key>
 			<data>
 			GIhohGDFOAmGr7tpgFHs4h6GVXuZd5fF6jEku+woGVs=
@@ -426,35 +318,23 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/StructuredFieldValues.framework.dSYM/Contents/Resources/DWARF/StructuredFieldValues</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1DP4v9iSGhJjc71p6Dg4vySULlc=
-			</data>
 			<key>hash2</key>
 			<data>
-			JduFsp6JhtrSDjnQjF+xQamIWPXnORGKo8Qlcp03GU4=
+			FjwTLDZSMskC0y+Vf0FgIej1Yi9KqSf8bkuFW09vrIY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/StructuredFieldValues.framework.dSYM/Contents/Resources/Relocations/aarch64/StructuredFieldValues.yml</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sAFDSW5VF0GTg5NIm6S4kIH2gPY=
-			</data>
 			<key>hash2</key>
 			<data>
-			sv0c71HVI0pertwn2OYCC7MNNHbezfGTN1UCAkRea60=
+			OSnDupFs5kf9BWr1K9LJI3DRGP8IAUXhLoo4PgujF6Y=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/StructuredFieldValues.framework.dSYM/Contents/Resources/Relocations/x86_64/StructuredFieldValues.yml</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+gMXLSxhrVkoVjwo10nNYde5HrM=
-			</data>
 			<key>hash2</key>
 			<data>
-			8Y6Yns6IeyPIS/SWc7nzuJ5uMuVWzfxA3oTS7JcPv5E=
+			zGxuUrTqTi4Sei02qUJ5TVYtpqJAEhT1q0aZLsOCAI0=
 			</data>
 		</dict>
 	</dict>

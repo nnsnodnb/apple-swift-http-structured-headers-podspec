@@ -10989,385 +10989,385 @@
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 2858,
+      "offset": 2898,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 3017,
+      "offset": 3057,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 3085,
+      "offset": 3125,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 3145,
+      "offset": 3185,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 3177,
+      "offset": 3217,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 3219,
+      "offset": 3259,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 3249,
+      "offset": 3289,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 3508,
+      "offset": 3548,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 3530,
+      "offset": 3570,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 3558,
+      "offset": 3598,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 3977,
+      "offset": 4017,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 4009,
+      "offset": 4049,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 4025,
+      "offset": 4065,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 4057,
+      "offset": 4097,
       "length": 2,
       "value": "-2"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 4073,
+      "offset": 4113,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 4105,
+      "offset": 4145,
       "length": 2,
       "value": "-3"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "StringLiteral",
-      "offset": 4157,
+      "offset": 4197,
       "length": 83,
       "value": "\"Unexpected value of offset: have \""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "StringLiteral",
-      "offset": 4206,
+      "offset": 4246,
       "length": 5,
       "value": "\" bytes and offset \""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "StringLiteral",
-      "offset": 4239,
+      "offset": 4279,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 4521,
+      "offset": 4561,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 4551,
+      "offset": 4591,
       "length": 15,
       "value": "999999999999"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 4580,
+      "offset": 4620,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 4611,
+      "offset": 4651,
       "length": 17,
       "value": "9999999999999"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 4642,
+      "offset": 4682,
       "length": 2,
       "value": "-2"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 4673,
+      "offset": 4713,
       "length": 18,
       "value": "99999999999999"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 4705,
+      "offset": 4745,
       "length": 2,
       "value": "-3"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 4736,
+      "offset": 4776,
       "length": 19,
       "value": "999999999999999"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "StringLiteral",
-      "offset": 5123,
+      "offset": 5163,
       "length": 88,
       "value": "\"Invalid value for structured header decimal: mantissa \""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "StringLiteral",
-      "offset": 5189,
+      "offset": 5229,
       "length": 8,
       "value": "\" exponent \""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "StringLiteral",
-      "offset": 5210,
+      "offset": 5250,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 6074,
+      "offset": 6114,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 6107,
+      "offset": 6147,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 6139,
+      "offset": 6179,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 6155,
+      "offset": 6195,
       "length": 2,
       "value": "-3"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 6181,
+      "offset": 6221,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 6187,
+      "offset": 6227,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 6220,
+      "offset": 6260,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 6254,
+      "offset": 6294,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 6293,
+      "offset": 6333,
       "length": 2,
       "value": "-2"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 6329,
+      "offset": 6369,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 6335,
+      "offset": 6375,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 6373,
+      "offset": 6413,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 6411,
+      "offset": 6451,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 6797,
+      "offset": 6837,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 6955,
+      "offset": 6995,
       "length": 2,
       "value": "-3"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "StringLiteral",
-      "offset": 7185,
+      "offset": 7225,
       "length": 55,
       "value": "\"Invalid value for structured header decimal: \""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "StringLiteral",
-      "offset": 7239,
+      "offset": 7279,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 7542,
+      "offset": 7582,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 7960,
+      "offset": 8000,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "StringLiteral",
-      "offset": 8003,
+      "offset": 8043,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "StringLiteral",
-      "offset": 8222,
+      "offset": 8262,
       "length": 3,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "StringLiteral",
-      "offset": 8494,
+      "offset": 8534,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 8560,
+      "offset": 8600,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "StringLiteral",
-      "offset": 8590,
+      "offset": 8630,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/RawStructuredFieldValues\/PseudoDecimal.swift",
       "kind": "IntegerLiteral",
-      "offset": 8853,
+      "offset": 8893,
       "length": 2,
       "value": "10"
     }

@@ -13,8 +13,8 @@
   },
   "clangVersion" : "clang-1700.0.13.3",
   "pin" : {
-    "revision" : "a9f3c352f4d46afd155e00b3c6e85decae6bcbeb",
-    "version" : "1.5.0"
+    "revision" : "76d7627bd88b47bf5a0f8497dd244885960dde0b",
+    "version" : "1.6.0"
   },
   "scipioVersion" : "963ed96c0c81fa4c6210713376e55f9065adeb07",
   "targetName" : "StructuredFieldValues",

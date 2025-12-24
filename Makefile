@@ -1,7 +1,7 @@
 .PHONY: xcframework
 xcframework:
 	@mint run scipio prepare \
-		--cache-policy project \
+		--framework-cache-policy project \
 		--support-simulators \
 		--enable-library-evolution \
 		--embed-debug-symbols \

@@ -11,15 +11,15 @@
     ],
     "stripStaticDWARFSymbols" : false
   },
-  "clangVersion" : "clang-1700.0.13.3",
+  "clangVersion" : "clang-1700.3.19.1",
   "pin" : {
     "revision" : "76d7627bd88b47bf5a0f8497dd244885960dde0b",
     "version" : "1.6.0"
   },
-  "scipioVersion" : "963ed96c0c81fa4c6210713376e55f9065adeb07",
+  "scipioVersion" : "d4131d082ca9ffb797380357edd5bf744ff86a91",
   "targetName" : "StructuredFieldValues",
   "xcodeVersion" : {
-    "xcodeBuildVersion" : "16E140",
-    "xcodeVersion" : "16.3"
+    "xcodeBuildVersion" : "17A400",
+    "xcodeVersion" : "26.0.1"
   }
 }

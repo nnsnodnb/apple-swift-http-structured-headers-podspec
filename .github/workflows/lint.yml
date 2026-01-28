@@ -16,7 +16,7 @@ jobs:
     timeout-minutes: 10
 
     env:
-      DEVELOPER_DIR: /Applications/Xcode_16.3.app/Contents/Developer
+      DEVELOPER_DIR: /Applications/Xcode_16.4.app/Contents/Developer
 
     steps:
     - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1

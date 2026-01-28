@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-compiler-version: Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
 // swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -enable-upcoming-feature MemberImportVisibility -enable-experimental-feature DebugDescriptionMacro -module-name RawStructuredFieldValues -package-name swift_http_structured_headers
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import Darwin
 import Swift
 import _Concurrency
@@ -252,12 +252,10 @@ extension RawStructuredFieldValues.StructuredFieldValueSerializer {
 }
 public struct OrderedMap<Key, Value> where Key : Swift.Hashable {
   public init()
-  #if compiler(>=5.3) && $NonescapableTypes
   public subscript(key: Key) -> Value? {
     get
     set
   }
-  #endif
 }
 extension RawStructuredFieldValues.OrderedMap : Swift.Sendable where Key : Swift.Sendable, Value : Swift.Sendable {
 }

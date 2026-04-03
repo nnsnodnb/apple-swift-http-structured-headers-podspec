@@ -10,8 +10,8 @@ xcframework:
 
 .PHONY: codesign
 codesign:
-	@codesign --timestamp -v --sign "Apple Distribution: Yuya Oka (99649YXF6E)" Frameworks/RawStructuredFieldValues.xcframework
-	@codesign --timestamp -v --sign "Apple Distribution: Yuya Oka (99649YXF6E)" Frameworks/StructuredFieldValues.xcframework
+	@codesign --timestamp -v --sign "Apple Distribution: Yuya Asamura (99649YXF6E)" Frameworks/RawStructuredFieldValues.xcframework
+	@codesign --timestamp -v --sign "Apple Distribution: Yuya Asamura (99649YXF6E)" Frameworks/StructuredFieldValues.xcframework
 
 .PHONY: pod_lint
 pod_lint:

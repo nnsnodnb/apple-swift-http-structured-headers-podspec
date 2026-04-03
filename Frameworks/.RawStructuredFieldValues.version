@@ -11,7 +11,7 @@
     ],
     "stripStaticDWARFSymbols" : false
   },
-  "clangVersion" : "clang-1700.0.13.5",
+  "clangVersion" : "clang-2100.0.123.102",
   "pin" : {
     "revision" : "76d7627bd88b47bf5a0f8497dd244885960dde0b",
     "version" : "1.6.0"
@@ -19,7 +19,7 @@
   "scipioVersion" : "d4131d082ca9ffb797380357edd5bf744ff86a91",
   "targetName" : "RawStructuredFieldValues",
   "xcodeVersion" : {
-    "xcodeBuildVersion" : "16F6",
-    "xcodeVersion" : "16.4"
+    "xcodeBuildVersion" : "17E192",
+    "xcodeVersion" : "26.4"
   }
 }

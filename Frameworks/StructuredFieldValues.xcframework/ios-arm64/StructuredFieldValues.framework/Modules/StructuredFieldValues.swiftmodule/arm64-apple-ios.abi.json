@@ -1460,17 +1460,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "SingleValueDecodingContainer",
-            "printedName": "SingleValueDecodingContainer",
-            "usr": "s:s28SingleValueDecodingContainerP",
-            "mangledName": "$ss28SingleValueDecodingContainerP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SingleValueDecodingContainer",
+            "printedName": "SingleValueDecodingContainer",
+            "usr": "s:s28SingleValueDecodingContainerP",
+            "mangledName": "$ss28SingleValueDecodingContainerP"
           }
         ]
       },
@@ -5087,17 +5087,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Decoder",
-            "printedName": "Decoder",
-            "usr": "s:s7DecoderP",
-            "mangledName": "$ss7DecoderP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Escapable",
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decoder",
+            "printedName": "Decoder",
+            "usr": "s:s7DecoderP",
+            "mangledName": "$ss7DecoderP"
           }
         ]
       },
@@ -5424,17 +5424,24 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "CodingKey",
-            "printedName": "CodingKey",
-            "usr": "s:s9CodingKeyP",
-            "mangledName": "$ss9CodingKeyP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CodingKey",
+            "printedName": "CodingKey",
+            "usr": "s:s9CodingKeyP",
+            "mangledName": "$ss9CodingKeyP"
           },
           {
             "kind": "Conformance",
@@ -5449,13 +5456,6 @@
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
             "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -6161,6 +6161,28 @@
           },
           {
             "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -6200,28 +6222,6 @@
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RawRepresentable",
-            "printedName": "RawRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "RawValue",
-                "printedName": "RawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SY",
-            "mangledName": "$sSY"
           }
         ]
       },
@@ -11484,17 +11484,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Encoder",
-            "printedName": "Encoder",
-            "usr": "s:s7EncoderP",
-            "mangledName": "$ss7EncoderP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Escapable",
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encoder",
+            "printedName": "Encoder",
+            "usr": "s:s7EncoderP",
+            "mangledName": "$ss7EncoderP"
           },
           {
             "kind": "Conformance",
@@ -11836,17 +11836,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
             "name": "Escapable",
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",

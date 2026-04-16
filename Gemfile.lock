@@ -94,6 +94,7 @@ GEM
     rouge (3.28.0)
     ruby-macho (2.5.1)
     securerandom (0.4.1)
+    tsort (0.2.0)
     typhoeus (1.6.0)
       ethon (>= 0.18.0)
     tzinfo (2.0.6)
@@ -114,6 +115,7 @@ PLATFORMS
 DEPENDENCIES
   cocoapods
   nkf
+  tsort
   xcpretty
 
 BUNDLED WITH

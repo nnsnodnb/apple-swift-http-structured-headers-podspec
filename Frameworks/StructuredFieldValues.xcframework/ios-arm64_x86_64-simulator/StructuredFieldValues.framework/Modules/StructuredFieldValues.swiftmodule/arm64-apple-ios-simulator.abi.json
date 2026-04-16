@@ -1460,17 +1460,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "SingleValueDecodingContainer",
             "printedName": "SingleValueDecodingContainer",
             "usr": "s:s28SingleValueDecodingContainerP",
             "mangledName": "$ss28SingleValueDecodingContainerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -5087,17 +5087,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decoder",
             "printedName": "Decoder",
             "usr": "s:s7DecoderP",
             "mangledName": "$ss7DecoderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -5424,24 +5424,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "CodingKey",
             "printedName": "CodingKey",
             "usr": "s:s9CodingKeyP",
             "mangledName": "$ss9CodingKeyP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
@@ -5456,6 +5449,13 @@
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
             "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -6161,28 +6161,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "RawRepresentable",
-            "printedName": "RawRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "RawValue",
-                "printedName": "RawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SY",
-            "mangledName": "$sSY"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -6222,6 +6200,28 @@
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
           }
         ]
       },
@@ -11484,17 +11484,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Encoder",
             "printedName": "Encoder",
             "usr": "s:s7EncoderP",
             "mangledName": "$ss7EncoderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -11836,17 +11836,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -11913,14 +11913,14 @@
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Decoder\/BareItemDecoder.swift",
       "kind": "IntegerLiteral",
-      "offset": 3781,
+      "offset": 3746,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Decoder\/BareItemDecoder.swift",
       "kind": "BooleanLiteral",
-      "offset": 4496,
+      "offset": 4461,
       "length": 5,
       "value": "false"
     },
@@ -12158,308 +12158,308 @@
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "IntegerLiteral",
-      "offset": 11446,
+      "offset": 11376,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "IntegerLiteral",
-      "offset": 11451,
+      "offset": 11381,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "IntegerLiteral",
-      "offset": 14299,
+      "offset": 14229,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "IntegerLiteral",
-      "offset": 14408,
+      "offset": 14338,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "StringLiteral",
-      "offset": 14512,
+      "offset": 14442,
       "length": 60,
       "value": "\"Cannot have unkeyed container at \""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "StringLiteral",
-      "offset": 14571,
+      "offset": 14501,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "IntegerLiteral",
-      "offset": 16801,
+      "offset": 16731,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "IntegerLiteral",
-      "offset": 16806,
+      "offset": 16736,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "Dictionary",
-      "offset": 18835,
+      "offset": 18765,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "Array",
-      "offset": 19090,
+      "offset": 19020,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "Dictionary",
-      "offset": 19345,
+      "offset": 19275,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "IntegerLiteral",
-      "offset": 23646,
+      "offset": 23576,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "IntegerLiteral",
-      "offset": 23651,
+      "offset": 23581,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "Dictionary",
-      "offset": 26313,
+      "offset": 26243,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "Dictionary",
-      "offset": 26517,
+      "offset": 26447,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "StringLiteral",
-      "offset": 26651,
+      "offset": 26581,
       "length": 12,
       "value": "\"parameters\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "Dictionary",
-      "offset": 26836,
+      "offset": 26766,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "StringLiteral",
-      "offset": 26996,
+      "offset": 26926,
       "length": 7,
       "value": "\"items\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "Array",
-      "offset": 27092,
+      "offset": 27022,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "StringLiteral",
-      "offset": 27200,
+      "offset": 27130,
       "length": 12,
       "value": "\"parameters\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "Dictionary",
-      "offset": 27298,
+      "offset": 27228,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "StringLiteral",
-      "offset": 27594,
+      "offset": 27524,
       "length": 7,
       "value": "\"items\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "Array",
-      "offset": 27729,
+      "offset": 27659,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "Array",
-      "offset": 27841,
+      "offset": 27771,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "StringLiteral",
-      "offset": 27949,
+      "offset": 27879,
       "length": 12,
       "value": "\"parameters\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "Dictionary",
-      "offset": 28047,
+      "offset": 27977,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "StringLiteral",
-      "offset": 28326,
+      "offset": 28256,
       "length": 7,
       "value": "\"items\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "Array",
-      "offset": 28468,
+      "offset": 28398,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "StringLiteral",
-      "offset": 31418,
+      "offset": 31348,
       "length": 12,
       "value": "\"parameters\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "StringLiteral",
-      "offset": 31657,
+      "offset": 31587,
       "length": 12,
       "value": "\"parameters\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "StringLiteral",
-      "offset": 31851,
+      "offset": 31781,
       "length": 7,
       "value": "\"items\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "StringLiteral",
-      "offset": 32412,
+      "offset": 32342,
       "length": 12,
       "value": "\"parameters\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "StringLiteral",
-      "offset": 33064,
+      "offset": 32994,
       "length": 7,
       "value": "\"items\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "StringLiteral",
-      "offset": 34242,
+      "offset": 34172,
       "length": 6,
       "value": "\"item\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "Dictionary",
-      "offset": 34414,
+      "offset": 34344,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "StringLiteral",
-      "offset": 34498,
+      "offset": 34428,
       "length": 6,
       "value": "\"item\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "StringLiteral",
-      "offset": 34954,
+      "offset": 34884,
       "length": 6,
       "value": "\"item\""
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "Dictionary",
-      "offset": 35444,
+      "offset": 35374,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "Dictionary",
-      "offset": 35663,
+      "offset": 35593,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "Dictionary",
-      "offset": 36328,
+      "offset": 36258,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "Dictionary",
-      "offset": 36442,
+      "offset": 36372,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "Dictionary",
-      "offset": 36603,
+      "offset": 36533,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "Dictionary",
-      "offset": 36758,
+      "offset": 36688,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nnsnodnb\/workspace\/swift\/apple-swift-http-structured-headers-podspec\/.build\/checkouts\/swift-http-structured-headers\/Sources\/StructuredFieldValues\/Encoder\/StructuredFieldValueEncoder.swift",
       "kind": "Dictionary",
-      "offset": 37016,
+      "offset": 36946,
       "length": 3,
       "value": "[]"
     }

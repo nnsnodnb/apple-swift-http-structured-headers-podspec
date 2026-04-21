@@ -26,7 +26,7 @@ jobs:
     - name: Setup ruby
       uses: ruby/setup-ruby@7372622e62b60b3cb750dcd2b9e32c247ffec26a # v1.302.0
       with:
-        ruby-version: '4.0.1'
+        ruby-version: '4.0.3'
         bundler-cache: true
 
     - name: Lint swift-http-structured-headers.podspec

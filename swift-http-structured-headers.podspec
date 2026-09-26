@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   spec.author                = 'Apple Inc. and the SwiftNIO project'
   spec.source                = { :git => 'https://github.com/apple/swift-http-structured-headers.git', :tag => '#{spec.version}' }
   spec.summary               = 'A Swift implementation of the HTTP Structured Header Field Value specification.'
-  spec.ios.deployment_target = '12.0'
+  spec.ios.deployment_target = '15.0'
   spec.swift_version         = '6.0'
   spec.vendored_frameworks   = 'Frameworks/RawStructuredFieldValues.xcframework', 'Frameworks/StructuredFieldValues.xcframework'
 end

@@ -5,7 +5,7 @@ version: 'v0.0.3'
 workflows:
     '.github/workflows/lint.yml':
         - 'actions/checkout@v7.0.1'
-        - 'reviewdog/action-actionlint@v1.80.4'
+        - 'reviewdog/action-actionlint@v1.81.1'
         - 'ruby/setup-ruby@v1.335.0'
     '.github/workflows/renovate.yml':
         - 'actions/checkout@v7.0.1'
@@ -26,9 +26,9 @@ dependencies:
         commit: 'sha1-820762786026740c76f36085b0efc47a31fe5020'
         owner_id: 44036562
         repo_id: 189476904
-    'reviewdog/action-actionlint@v1.80.4':
-        ref: 'v1.80.4'
-        commit: 'sha1-419a49378266e892f40c773b4f2fc6de9aa87499'
+    'reviewdog/action-actionlint@v1.81.1':
+        ref: 'v1.81.1'
+        commit: 'sha1-619a81ec64ff8c0211cd6146eb2b21e8f1d7f440'
         owner_id: 48765237
         repo_id: 385059686
     'ruby/setup-ruby@v1.335.0':

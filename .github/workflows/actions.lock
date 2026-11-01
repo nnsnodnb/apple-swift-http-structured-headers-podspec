@@ -6,7 +6,7 @@ workflows:
     '.github/workflows/lint.yml':
         - 'actions/checkout@v7.0.1'
         - 'reviewdog/action-actionlint@v1.81.1'
-        - 'ruby/setup-ruby@v1.335.0'
+        - 'ruby/setup-ruby@v1.336.0'
     '.github/workflows/renovate.yml':
         - 'actions/checkout@v7.0.1'
         - 'suzuki-shunsuke/github-action-renovate-config-validator@v2.4.1'
@@ -31,9 +31,9 @@ dependencies:
         commit: 'sha1-619a81ec64ff8c0211cd6146eb2b21e8f1d7f440'
         owner_id: 48765237
         repo_id: 385059686
-    'ruby/setup-ruby@v1.335.0':
-        ref: 'v1.335.0'
-        commit: 'sha1-7f797815d8adceb1c412e7abefdd1ab4abc47a5f'
+    'ruby/setup-ruby@v1.336.0':
+        ref: 'v1.336.0'
+        commit: 'sha1-de492cf36cbab201753d720ce4f4e336cd688c94'
         owner_id: 210414
         repo_id: 231208785
     'suzuki-shunsuke/github-action-renovate-config-validator@v2.4.1':

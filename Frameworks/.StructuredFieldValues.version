@@ -14,18 +14,19 @@
   "clangVersion" : "clang-2100.3.34.2",
   "dependencyCacheKeyChecksums" : [
     {
-      "checksum" : "81fd46c9ebc6e613f2220ecae7a29bd83f749f4ab0b15f0895a7d2a3fd5036dd",
+      "checksum" : "2ae265bec6a12fde38ac22009799be3eb24e6181571348474d3396d4a8011a92",
       "targetName" : "RawStructuredFieldValues"
     }
   ],
   "pin" : {
+    "kind" : "sourceControl",
     "revision" : "933538faa42c432d385f02e07df0ace7c5ecfc47",
     "version" : "1.7.0"
   },
-  "scipioVersion" : "0499f7daf0f3dae777d77895814ef06542663ac2",
+  "scipioVersion" : "e17a829ac99af0291e281634b475ca5e78df4cde",
   "targetName" : "StructuredFieldValues",
   "xcodeVersion" : {
-    "xcodeBuildVersion" : "27A266a",
-    "xcodeVersion" : "27.0"
+    "xcodeBuildVersion" : "27A9275",
+    "xcodeVersion" : "27.1"
   }
 }
